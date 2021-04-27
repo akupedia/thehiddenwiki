@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Hidden Wiki</title>
+<meta name="generator" content="MediaWiki 1.25.1">
+<link rel="shortcut icon" href="http://hwikis25cffertqe.onion/wiki/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://hwikis25cffertqe.onion/wiki/opensearch_desc.php" title="Hidden Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://hwikis25cffertqe.onion/wiki/api.php?action=rsd">
+<link rel="alternate" hreflang="x-default" href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page">
+<link rel="copyright" href="http://hwikis25cffertqe.onion/wiki/index.php?title=Creative_Commons_Zero_(Public_Domain)">
+<link rel="alternate" type="application/atom+xml" title="Hidden Wiki Atom feed" href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="load.css">
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:e1ffd603cbaaa5f1a36e0d13fe843535 */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:f8d0c6895ce3ae14434c16b8fca59432 */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(http://hwikis25cffertqe.onion/wiki/resources/src/mediawiki.action/images/green-checkmark.png?2019-02-09T00:38:20Z)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:1f9a0aa8491011ff77dafea831e0b35f */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style><style>
+table.jquery-tablesorter th.headerSort{background-image:url(data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs=);background-image:url(http://hwikis25cffertqe.onion/wiki/resources/src/jquery/images/sort_both.gif?2019-02-09T00:38:20Z)!ie;cursor:pointer;background-repeat:no-repeat;background-position:center right;padding-right:21px}table.jquery-tablesorter th.headerSortUp{background-image:url(data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw==);background-image:url(http://hwikis25cffertqe.onion/wiki/resources/src/jquery/images/sort_up.gif?2019-02-09T00:38:20Z)!ie}table.jquery-tablesorter th.headerSortDown{background-image:url(data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw==);background-image:url(http://hwikis25cffertqe.onion/wiki/resources/src/jquery/images/sort_down.gif?2019-02-09T00:38:20Z)!ie}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:ff5ae6e489c75f60d534f8fdd40b4e6d */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: hwik-w_:resourceloader:filter:minify-css:7:cc2bcd828da0fdf351f73a091d2b64a2 */</style>
+<script src="load.php"></script><script src="load_002.php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":31358,"wgRevisionId":31358,"wgArticleId":4964,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":4964,"wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgIsMainPage":true});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});
+/* cache key: hwik-w_:resourceloader:filter:minify-js:7:a5c52c063dc436c1ca7c9f456936a5e9 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script><script src="load_003.php"></script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Main Page</h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Hidden Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><h2><span class="mw-headline" id="Important">Important</span></h2>
+<p><b>Allowed ONE link per user</b> regardless of the category. If you 
+sell multiple things should choose your priorities and place your link 
+in a single category (always respecting the order).
+</p><p><span style="color:red;font-size:1.20em"><b>Hidden Wiki NEW URL: <i><a rel="nofollow" target="_blank" class="external free" href="http://hwikis25cffertqe.onion/">http://hwikis25cffertqe.onion</a>  =   hwikis25cffertqe.onion</i> <br>Add it to bookmarks and spread it!</b></span><br>
+Main Page editing is enabled for registered users (30 days after 
+registration, and after 10 useful editions, adding information in the 
+rest of the wiki). Please add your links in the correct section and 
+respecting the order or will be banned <i>(you and your link)</i>.
+</p>
+<h2><span class="mw-headline" id="Editor.27s_picks">Editor's picks</span></h2>
+<ol><li> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=The_Matrix" title="The Matrix">The Matrix</a> - nice to read</li>
+<li> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=How_to_Exit_the_Matrix" title="How to Exit the Matrix">How to Exit the Matrix</a> - Protect yourself and your rights, online and off</li>
+<li> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Verifying_PGP_signatures" title="Verifying PGP signatures">Verifying PGP signatures</a> - A quick how-to to get started.</li></ol>
+<div style="float: right; margin-left: 12px"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Important"><span class="tocnumber">1</span> <span class="toctext">Important</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Editor.27s_picks"><span class="tocnumber">2</span> <span class="toctext">Editor's picks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Guides"><span class="tocnumber">2.1</span> <span class="toctext">Guides</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Link_lists"><span class="tocnumber">2.2</span> <span class="toctext">Link lists</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Wikis"><span class="tocnumber">3</span> <span class="toctext">Wikis</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Search_engines"><span class="tocnumber">3.1</span> <span class="toctext">Search engines</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Tor"><span class="tocnumber">3.2</span> <span class="toctext">Tor</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Financial"><span class="tocnumber">4</span> <span class="toctext">Financial</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Credit_Cards"><span class="tocnumber">4.1</span> <span class="toctext">Credit Cards</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#PayPal_and_Debit"><span class="tocnumber">4.2</span> <span class="toctext">PayPal and Debit</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Money_Counterfeits"><span class="tocnumber">4.3</span> <span class="toctext">Money Counterfeits</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Commercial_Services"><span class="tocnumber">5</span> <span class="toctext">Commercial Services</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Electronics"><span class="tocnumber">5.1</span> <span class="toctext">Electronics</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Hacking_Services"><span class="tocnumber">5.2</span> <span class="toctext">Hacking Services</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Betting"><span class="tocnumber">5.3</span> <span class="toctext">Betting</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#False_Identity"><span class="tocnumber">5.4</span> <span class="toctext">False Identity</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Gift_Cards"><span class="tocnumber">5.5</span> <span class="toctext">Gift Cards</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Other"><span class="tocnumber">5.6</span> <span class="toctext">Other</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Drugs"><span class="tocnumber">5.7</span> <span class="toctext">Drugs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Essays"><span class="tocnumber">6</span> <span class="toctext">Essays</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Centralized_and_Multi-Sig_Escrow_Markets"><span class="tocnumber">7</span> <span class="toctext">Centralized and Multi-Sig Escrow Markets</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Blogs_and_personal_sites"><span class="tocnumber">8</span> <span class="toctext">Blogs and personal sites</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Hosting"><span class="tocnumber">9</span> <span class="toctext">Hosting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-24"><a href="#Shells.2FVPS"><span class="tocnumber">9.1</span> <span class="toctext">Shells/VPS</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Web_Design"><span class="tocnumber">9.2</span> <span class="toctext">Web Design</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Domain_Services"><span class="tocnumber">9.3</span> <span class="toctext">Domain Services</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Files"><span class="tocnumber">9.4</span> <span class="toctext">Files</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Images"><span class="tocnumber">9.5</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Pastebins"><span class="tocnumber">9.6</span> <span class="toctext">Pastebins</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="#Email_.2F_Messaging"><span class="tocnumber">10</span> <span class="toctext">Email / Messaging</span></a>
+<ul>
+<li class="toclevel-2 tocsection-31"><a href="#Free_Email_Providers"><span class="tocnumber">10.1</span> <span class="toctext">Free Email Providers</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Paid_Email_Providers"><span class="tocnumber">10.2</span> <span class="toctext">Paid Email Providers</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Messaging"><span class="tocnumber">10.3</span> <span class="toctext">Messaging</span></a>
+<ul>
+<li class="toclevel-3 tocsection-34"><a href="#Instant_Messaging_and_Bitmessage"><span class="tocnumber">10.3.1</span> <span class="toctext">Instant Messaging and Bitmessage</span></a></li>
+<li class="toclevel-3 tocsection-35"><a href="#Chat_rooms"><span class="tocnumber">10.3.2</span> <span class="toctext">Chat rooms</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="#IRC"><span class="tocnumber">10.3.3</span> <span class="toctext">IRC</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-37"><a href="#PGP_Key_Servers"><span class="tocnumber">11</span> <span class="toctext">PGP Key Servers</span></a></li>
+<li class="toclevel-1 tocsection-38"><a href="#Forums"><span class="tocnumber">12</span> <span class="toctext">Forums</span></a>
+<ul>
+<li class="toclevel-2 tocsection-39"><a href="#Hack.2C_Phreak.2C_Anarchy_.28internet.29.2C_Warez.2C_Virus.2C_Crack"><span class="tocnumber">12.1</span> <span class="toctext">Hack, Phreak, Anarchy (internet), Warez, Virus, Crack</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="#Other_Forums"><span class="tocnumber">12.2</span> <span class="toctext">Other Forums</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-41"><a href="#Dox"><span class="tocnumber">13</span> <span class="toctext">Dox</span></a></li>
+<li class="toclevel-1 tocsection-42"><a href="#Biohacking"><span class="tocnumber">14</span> <span class="toctext">Biohacking</span></a></li>
+<li class="toclevel-1 tocsection-43"><a href="#Other_2"><span class="tocnumber">15</span> <span class="toctext">Other</span></a></li>
+<li class="toclevel-1 tocsection-44"><a href="#Freenet_Links"><span class="tocnumber">16</span> <span class="toctext">Freenet Links</span></a>
+<ul>
+<li class="toclevel-2 tocsection-45"><a href="#Blogs_and_personal_sites_2"><span class="tocnumber">16.1</span> <span class="toctext">Blogs and personal sites</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-46"><a href="#P2P_Filesharing"><span class="tocnumber">17</span> <span class="toctext">P2P Filesharing</span></a>
+<ul>
+<li class="toclevel-2 tocsection-47"><a href="#Tor_Onions"><span class="tocnumber">17.1</span> <span class="toctext">Tor Onions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-48"><a href="#Erotica"><span class="tocnumber">18</span> <span class="toctext">Erotica</span></a>
+<ul>
+<li class="toclevel-2 tocsection-49"><a href="#Non_Commercial"><span class="tocnumber">18.1</span> <span class="toctext">Non Commercial</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-50"><a href="#Leaks"><span class="tocnumber">19</span> <span class="toctext">Leaks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-51"><a href="#General"><span class="tocnumber">19.1</span> <span class="toctext">General</span></a></li>
+<li class="toclevel-2 tocsection-52"><a href="#Whistleblowing_Submission_Sites"><span class="tocnumber">19.2</span> <span class="toctext">Whistleblowing Submission Sites</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-53"><a href="#Other_Leaks"><span class="tocnumber">20</span> <span class="toctext">Other Leaks</span></a></li>
+<li class="toclevel-1 tocsection-54"><a href="#Image_Boards_.28chans.29"><span class="tocnumber">21</span> <span class="toctext">Image Boards (chans)</span></a></li>
+<li class="toclevel-1 tocsection-55"><a href="#BBS_.28Bulletin_board_system.29"><span class="tocnumber">22</span> <span class="toctext">BBS (Bulletin board system)</span></a></li>
+<li class="toclevel-1 tocsection-56"><a href="#Social_Networks"><span class="tocnumber">23</span> <span class="toctext">Social Networks</span></a></li>
+<li class="toclevel-1 tocsection-57"><a href="#Research_Papers"><span class="tocnumber">24</span> <span class="toctext">Research Papers</span></a></li>
+<li class="toclevel-1 tocsection-58"><a href="#Public_libraries"><span class="tocnumber">25</span> <span class="toctext">Public libraries</span></a></li>
+<li class="toclevel-1 tocsection-59"><a href="#Freenet_Links_2"><span class="tocnumber">26</span> <span class="toctext">Freenet Links</span></a>
+<ul>
+<li class="toclevel-2 tocsection-60"><a href="#LEA_Tactics"><span class="tocnumber">26.1</span> <span class="toctext">LEA Tactics</span></a>
+<ul>
+<li class="toclevel-3 tocsection-61"><a href="#I2P"><span class="tocnumber">26.1.1</span> <span class="toctext">I2P</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-62"><a href="#HTML_Index_Pages"><span class="tocnumber">27</span> <span class="toctext">HTML Index Pages</span></a></li>
+<li class="toclevel-1 tocsection-63"><a href="#SFTP_-_SSH_File_Transfer_Protocol"><span class="tocnumber">28</span> <span class="toctext">SFTP - SSH File Transfer Protocol</span></a>
+<ul>
+<li class="toclevel-2 tocsection-64"><a href="#FTP_Servers"><span class="tocnumber">28.1</span> <span class="toctext">FTP Servers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-65"><a href="#Usenet"><span class="tocnumber">29</span> <span class="toctext">Usenet</span></a></li>
+<li class="toclevel-1 tocsection-66"><a href="#Other_3"><span class="tocnumber">30</span> <span class="toctext">Other</span></a></li>
+<li class="toclevel-1 tocsection-67"><a href="#Non_English"><span class="tocnumber">31</span> <span class="toctext">Non English</span></a>
+<ul>
+<li class="toclevel-2 tocsection-68"><a href="#Arabic_.2F_.D8.A7.D9.84.D8.B9.D9.8E.D8.B1.D9.8E.D8.A8.D9.90.D9.8A.D8.A9.E2.80.8E"><span class="tocnumber">31.1</span> <span class="toctext">Arabic / العَرَبِية‎</span></a></li>
+<li class="toclevel-2 tocsection-69"><a href="#Belarussian_.2F_.D0.91.D0.B5.D0.BB.D0.BE.D1.80.D1.83.D1.81.D1.81.D0.BA.D0.B8.D0.B9"><span class="tocnumber">31.2</span> <span class="toctext">Belarussian / Белорусский</span></a></li>
+<li class="toclevel-2 tocsection-70"><a href="#Chinese_.2F_.E5.AE.98.E8.A9.B1"><span class="tocnumber">31.3</span> <span class="toctext">Chinese / 官話</span></a></li>
+<li class="toclevel-2 tocsection-71"><a href="#Finnish_.2F_Suomi"><span class="tocnumber">31.4</span> <span class="toctext">Finnish / Suomi</span></a></li>
+<li class="toclevel-2 tocsection-72"><a href="#French_.2F_Fran.C3.A7ais"><span class="tocnumber">31.5</span> <span class="toctext">French / Français</span></a></li>
+<li class="toclevel-2 tocsection-73"><a href="#German_.2F_Deutsch"><span class="tocnumber">31.6</span> <span class="toctext">German / Deutsch</span></a></li>
+<li class="toclevel-2 tocsection-74"><a href="#Greek_.2F_.CE.B5.CE.BB.CE.BB.CE.B7.CE.BD.CE.B9.CE.BA.CE.AC"><span class="tocnumber">31.7</span> <span class="toctext">Greek / ελληνικά</span></a></li>
+<li class="toclevel-2 tocsection-75"><a href="#Italian_.2F_Italiano"><span class="tocnumber">31.8</span> <span class="toctext">Italian / Italiano</span></a></li>
+<li class="toclevel-2 tocsection-76"><a href="#Japanese_.2F_.E6.97.A5.E6.9C.AC.E8.AA.9E"><span class="tocnumber">31.9</span> <span class="toctext">Japanese / 日本語</span></a></li>
+<li class="toclevel-2 tocsection-77"><a href="#Korean_.2F_.ED.95.9C.EA.B5.AD.EC.96.B4"><span class="tocnumber">31.10</span> <span class="toctext">Korean / 한국어</span></a></li>
+<li class="toclevel-2 tocsection-78"><a href="#Persian_.2F_.D9.81.D8.A7.D8.B1.D8.B3.DB.8C"><span class="tocnumber">31.11</span> <span class="toctext">Persian / فارسی</span></a></li>
+<li class="toclevel-2 tocsection-79"><a href="#Polish_.2F_Polski"><span class="tocnumber">31.12</span> <span class="toctext">Polish / Polski</span></a></li>
+<li class="toclevel-2 tocsection-80"><a href="#Portuguese_.2F_Portugu.C3.AAs"><span class="tocnumber">31.13</span> <span class="toctext">Portuguese / Português</span></a></li>
+<li class="toclevel-2 tocsection-81"><a href="#Russian_.2F_.D0.A0.D1.83.D1.81.D1.81.D0.BA.D0.B8.D0.B9"><span class="tocnumber">31.14</span> <span class="toctext">Russian / Русский</span></a></li>
+<li class="toclevel-2 tocsection-82"><a href="#Spanish_.2F_Espa.C3.B1ol"><span class="tocnumber">31.15</span> <span class="toctext">Spanish / Español</span></a></li>
+<li class="toclevel-2 tocsection-83"><a href="#Swedish_.2F_Svenska"><span class="tocnumber">31.16</span> <span class="toctext">Swedish / Svenska</span></a></li>
+<li class="toclevel-2 tocsection-84"><a href="#Turkish_.2F_T.C3.BCrk.C3.A7e"><span class="tocnumber">31.17</span> <span class="toctext">Turkish / Türkçe</span></a></li>
+<li class="toclevel-2 tocsection-85"><a href="#Ukrainian_.2F_.D0.A3.D0.BA.D1.80.D0.B0.D1.97.D0.BD.D1.81.D1.8C.D0.BA.D0.B0"><span class="tocnumber">31.18</span> <span class="toctext">Ukrainian / Українська</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-86"><a href="#Chat"><span class="tocnumber">32</span> <span class="toctext">Chat</span></a>
+<ul>
+<li class="toclevel-2 tocsection-87"><a href="#WebChat_without_JavaScript"><span class="tocnumber">32.1</span> <span class="toctext">WebChat without JavaScript</span></a></li>
+<li class="toclevel-2 tocsection-88"><a href="#WebChat_with_JavaScript"><span class="tocnumber">32.2</span> <span class="toctext">WebChat with JavaScript</span></a></li>
+<li class="toclevel-2 tocsection-89"><a href="#IRC_2"><span class="tocnumber">32.3</span> <span class="toctext">IRC</span></a></li>
+<li class="toclevel-2 tocsection-90"><a href="#URC"><span class="tocnumber">32.4</span> <span class="toctext">URC</span></a></li>
+<li class="toclevel-2 tocsection-91"><a href="#ZNC"><span class="tocnumber">32.5</span> <span class="toctext">ZNC</span></a></li>
+<li class="toclevel-2 tocsection-92"><a href="#BitlBee"><span class="tocnumber">32.6</span> <span class="toctext">BitlBee</span></a></li>
+<li class="toclevel-2 tocsection-93"><a href="#XMPP_.28formerly_Jabber.29"><span class="tocnumber">32.7</span> <span class="toctext">XMPP (formerly Jabber)</span></a></li>
+<li class="toclevel-2 tocsection-94"><a href="#SILC"><span class="tocnumber">32.8</span> <span class="toctext">SILC</span></a></li>
+<li class="toclevel-2 tocsection-95"><a href="#OnionCat_Addresses"><span class="tocnumber">32.9</span> <span class="toctext">OnionCat Addresses</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-96"><a href="#Bitcoin_Seeding"><span class="tocnumber">33</span> <span class="toctext">Bitcoin Seeding</span></a></li>
+<li class="toclevel-1 tocsection-97"><a href="#Dead_Hidden_Services"><span class="tocnumber">34</span> <span class="toctext">Dead Hidden Services</span></a></li>
+</ul>
+</div>
+</div>
+<h3><span class="mw-headline" id="Guides">Guides</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://emailselfdefense.fsf.org/">Email Self-Defense</a>: <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> a guide to fighting surveillance with GnuPG encryption.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://securityinabox.org/">Security in a Box</a>: <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> take it with a grain of salt.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://ssd.eff.org/">Surveillance Self-Defense</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>
+ - is a guide to protecting yourself from electronic surveillance for 
+people all over the world. Some aspects of this guide will be useful to 
+people with very little technical knowledge, while others are aimed at 
+an audience with considerable technical expertise and privacy/security 
+trainers.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dtt6tdtgroj63iud.onion/">Summary of Deepweb</a> - A funny and true summary of Tor onions.</li></ul>
+<h3><span class="mw-headline" id="Link_lists">Link lists</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://zlal32teyptf4tvi.onion/">Fresh Onions</a> - onion crawler, updated daily.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://directdal7bourmy.onion/">Link Dir</a> – Onion Link Directory.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://7cbqhjnlkivmigxf.onion/">The onions crate</a> – List of onion sites, including cloner and phishing warnings.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://32rfckwuorlf4dlv.onion/">Onion Url Repository</a> – Onion Url Repository. (<a rel="nofollow" target="_blank" class="external text" href="http://onion.is-found.org/">clearnet version</a>)</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torlinksd6pdnihy.onion/">Torlinks</a> - TorLinks is a moderated replacement for The Hidden Wiki.</li></ul>
+<h2><span class="mw-headline" id="Wikis">Wikis</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://zqinthw6b4ya676y.onion/">Official Hidden Wiki</a> - Hidden Wiki best organized, daily updated.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hwikis25cffertqe.onion/">Hidden Wiki</a> - <b>This one</b> - #5 darknet site according to <a rel="nofollow" target="_blank" class="external free" href="http://ahmia.fi/">http://ahmia.fi</a> . </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki 9</a> - <b>zq</b> wiki, also on <b>kpv</b>z7ki2v5agwt35.onion  280'000 pages  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://allyour4nert7pkh.onion/wiki/">All You're Wiki</a> - Previous mirror of the Hidden Wiki. Censors content.</li></ul>
+<h3><span class="mw-headline" id="Search_engines">Search engines</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://carontevaha5x626.onion/">Caronte</a> <i>(<a rel="nofollow" target="_blank" class="external text" href="https://caronte.io/">clearnet version</a>)</i> - Search engine for Tor hidden services with millions of pages already indexed.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://msydqstlz2kzerdg.onion/search/">Ahmia</a> <i>(<a rel="nofollow" target="_blank" class="external text" href="https://ahmia.fi/search/">clearnet version</a>)</i> - Search engine for Tor hidden services that allows you to add new sites to its database. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://gjobqjj7wyczbqie.onion/">Candle</a> – a search engine. <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2017-09-14</span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://3g2upl4pq6kufc4m.onion/">DuckDuckGo</a> – The search engine that doesn’t track you. (<a rel="nofollow" target="_blank" class="external text" href="https://duckduckgo.com/">clearnet version</a>)  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://grams7enufi7jmdl.onion/">Grams</a> – Search Darknet Markets and more.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hss3uro2hsxfogfq.onion/">not Evil</a> – A onion search engine like Google, but not evil. Good index of onions.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://visitorfi5kl7q7i.onion/search/">VisiTOR Search</a> – A fork of the Ahmia search engine with uncensored results.</li></ul>
+<h3><span class="mw-headline" id="Tor">Tor</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://rougmnvswfsmd4dq.onion/">Tor Metrics</a>
+ - The primary place to learn interesting facts about the Tor network, 
+the largest deployed anonymity network to date. If something can be 
+measured safely, you'll find it here.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ygzf7uqcusp4ayjs.onion/">Munin</a> - Tor health, bandwidth, and relays.  </li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Financial">Financial</span></h2>
+<h3><span class="mw-headline" id="Credit_Cards">Credit Cards</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://h24wtibkbgc543ck.onion/">AeonHack</a>
+ - Best Credit card and paypal Vendor on tor with Fresh accounts from 
+our personal botnet with the absolute cheapest prices available. We even
+ offer to cash the accounts out for you.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://xilliayhoiuv5qmk.onion/">Financial wisdom™</a> - (<u><a rel="nofollow" target="_blank" class="external text" href="http://vrmfaneizwqouf5k.onion/wisdom/">check reviews</a></u>)
+ Trusted and Oldest onion site for Cloned Credit Card and Paypal, New 
+batch of stolen credit cards and Paypal accounts for sale, (<u><a rel="nofollow" target="_blank" class="external text" href="http://vrmfaneizwqouf5k.onion/wisdom/">Live forum with Active Members</a></u>) ,All Escrow accepted.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cvendorj6vnr3thv.onion/">CC Quality Vendor</a>  - Only Quality Credit cards, fast shipping worldwide. Cheap prices.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://sxrvl46c5v4iviv7.onion/">AC-Team</a>
+ - NO.1 Verified vendor since 2010, selling stolen Credit Cards and 
+PayPal, accepts escrow, free or express shipping worldwide. Good 
+reviews.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ccqvend6aq5wig35.onion/">AB CC Quality Vendor</a>  - #1 Carding Site for CCs and Paypal, since 2011 Active 24/7,(<a rel="nofollow" target="_blank" class="external text" href="http://ccqvend6aq5wig35.onion/forum/">With real Active Forum </a>)  We Accept Full Escrow  WE'RE BACK</li></ul>
+<h3><span class="mw-headline" id="PayPal_and_Debit">PayPal and Debit</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://e7sin3urmxxcnu6a.onion/">AlphaCrew Paypal Services</a>
+ - Best Paypal Vendor on tor with Fresh accounts from our personal 
+botnet with the absolute cheapest prices available. We even offer to 
+cash the accounts out for you. So what are you waiting for? Come get 
+some free money!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tormfolqnly2x6fq.onion/">Tor Market Forum</a> - Forum style marketplace with financial/commercial vendors, tutorials and other classifieds</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://svh5ootx53hvtd47.onion/">PayPal seller</a> - The BEST PayPal and Western Union accounts seller. The cheapest prices. Big balances.DISCOUNTS FOR THE FIRST TIME.</li></ul>
+<h3><span class="mw-headline" id="Money_Counterfeits">Money Counterfeits</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://usjudr3c6ez6tesi.onion/">USJUDz Counterfeits</a> - 20 EUR || 20 USD Counterfeit money. Top quality, trusted seller. Any trusted escrow accepted.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://guttenbdoe4mzk6k.onion/">Guttenbergs Print</a> - Finest USD/EUR bills on market. Passes all known tests. Random serials. Only top-notch currency.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bmreload54caekze.onion/">Black Market Team</a> - Reliable supplier with assured service quality. Counterfeits, drugs, weapons, fake ID.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fakenotefzutekmq.onion/">FakeNote Factory</a> - EUR and USD counterfeits. Very high quality, escrow accepted.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ihh6byubzfjqzrdo.onion/">The Cash is King</a> - We proudly offers the best real money on the Darknet, we are the best from any darkmarket. </li></ul>
+<h2><span class="mw-headline" id="Commercial_Services">Commercial Services</span></h2>
+<p>Vendors: Add your site to the bottom of the correct category with a 
+neutral one or two sentence description of your site. Entrys that do not
+ follow this will be removed!
+</p>
+<h3><span class="mw-headline" id="Electronics">Electronics</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://cardedst5ey4ohdt.onion/">The original CardedStore</a> - Electronics purchased with carded giftcards. Everything Brand new and unopened. Full escrow accepted.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bitstfya5jxnujtr.onion/">Bitstore</a> – concept-store with new sales every week. Brand-new electronics, stolen from a big warehouse: Apple, Microsoft, Samsung, etc. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://xxxxxm43edyju7us.onion/">Antminer S9 cheap</a> – Stolen bitcoin miners at half price, escrow accepted.</li></ul>
+<h3><span class="mw-headline" id="Hacking_Services">Hacking Services</span></h3>
+<ul><li><a rel="nofollow" target="_blank" class="external text" href="http://hackurxal34aznxe.onion/">Professional hackers</a> - Professional blackhat hackers at your service.</li>
+<li><a rel="nofollow" target="_blank" class="external text" href="http://hackurxal34aznxe.onion/">HackTeams</a> - The best hacker service. Big and reliable team. Fast order execution.</li>
+<li><a rel="nofollow" target="_blank" class="external text" href="http://puqczubdpxnmtgxg.onion/">Social Media Hackers</a>
+ - Hire The Most Advanced and Trustable Social Media Hackers of the 
+Darknet. Hacking WhatsApp, Viber and other messengers. All social media 
+accounts and Email. The cheapest service!</li></ul>
+<h3><span class="mw-headline" id="Betting">Betting</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://hbetshipq5yhhrsd.onion/">Bet Fixed Matches</a> - The real Fixed matches on soccer, tennis and hockey. Totally safe, guaranteed with Escrow. The best option. Not PICKS.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kxsrleurtkarnewr.onion/">Basketball Money</a>
+ - THE best and only seller of Basketball Fixed Matches. Only fixed 
+games(no predictions). If You want to be rich, You are welcome.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fixedlwgc3burzts.onion/">Fixed Matches</a> - seller of Fixed Matches.Only 100% fixed games, only good coefficients.Gifts for new clients.</li></ul>
+<p><br>
+</p>
+<h3><span class="mw-headline" id="False_Identity">False Identity</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://fakeidixbho2wmoa.onion/">FakeID Passport</a> - Good website selling qualitative EU/US/AUS/CAN fake passports, ID cards, driver's licenses.</li></ul>
+<h3><span class="mw-headline" id="Gift_Cards">Gift Cards</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://amazonx6kqmek453.onion/">Amazon Warriors</a> - Amazon Gift Cards at half the price</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://http//kj4ltd3twej7mjcan6uckkojngwnnaxas45bkh3fg73yt4xvhwqu7fyd.onion/">Amazon Warriors Gift Cards</a> - New but trusted Gift Cards market.The cheapest price</li></ul>
+<h3><span class="mw-headline" id="Other">Other</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://greenhsh3y443pca.onion/">Sinovac CoV-2 Covid19 Vaccine</a> - Real Covid-19 Vaccine from Sinovac proved 97% effective. Only 280 Units available.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cartvs55wtzng5v3.onion/">Car Thieves</a> - Steals cars for you. EU only. The team of professional car thieves.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://choicecbtavv4csx.onion/">Choose Better</a> - Tells you whether a .onion site is scam or not.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pastagdsp33j7aoq.onion/jaw-curtain-snap/raw">UnfriendlySolution</a> - International hitman service in business for many years</li></ul>
+<h3><span class="mw-headline" id="Drugs">Drugs</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://realwee6q7mjw6e3.onion/">RealWeed</a>
+ Site definitely created and runned by people with love to marijuana. If
+ you also love marijuana - you will understand everything. That's all. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://abyssopyps3z4xof.onion/">The French Connection</a>  - Vendor shop from Mr Nice Guy or Nucleus – Selling H, XTC , Meth etc.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://eupillu4np223oxe.onion/">EuroPills</a>  - Private vendor shop of Europills – Vendor from Agora, Alphabay, Abraxas &amp; Middle Earth. Selling Meds.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://djypjjvw532evfw3.onion/">Weed&amp;Co</a>   -   Weed / Cigarettes ... Prix Bas / Low Price ... weed cigarette / EUROPE&nbsp;!!!</li></ul>
+<h2><span class="mw-headline" id="Essays">Essays</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://kpynyvym6xqi7wz2.onion/lapsiporno.info/five_years_of_censorship.html">Five years of censorship</a> - Story about the censorship of lapsiporno.info located in Finland, falsely alleging of distributing child porn. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jewjewkeei4o4bvn.onion/">Gopher</a> <a rel="nofollow" target="_blank" class="external free" href="gopher://jewjewkeei4o4bvn.onion">gopher://jewjewkeei4o4bvn.onion</a> - This is Zinov's gopher server.  Among other things, I use this server to host essays of mine. </li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Centralized_and_Multi-Sig_Escrow_Markets">Centralized and Multi-Sig Escrow Markets</span></h2>
+<ul><li><a rel="nofollow" target="_blank" class="external text" href="http://secrn2yymnducpam.onion/">The Secret Market</a>
+ - The successor from Alphabay, Marketplace with hundred of products, 
+Multisig escrow. Cloned Cards, Prepaid Cards, Western Union transfers, 
+Gift Cards, Apple products, Counterfeits.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://deepsea2ou77c6vw.onion/">DeepSea</a> - DeepSea underground marketplace.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://traderouteilbgzt.onion/?r=rvn50">TradeRoute</a> - TradeRoute is a traditional &amp; Multisig escrow marketplace</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://rsclubvvwcoovivi.onion/register.php?ref=14801">RsClub Market</a> - Escrow market &amp; Autoshop</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tochka3evlj3sxdv.onion/auth/register/563636d36ab740e4720f44e8328441d3">Tochka</a>
+ - T•chka allows you to buy and sell your stuff instantly. And you don’t
+ have to communicate with other party at all. Buy or sell coordinates of
+ your buried treasures. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wallstyizjhkrvmj.onion/signup?ref=276">Wall Street Market</a>
+ - Offer 2/3 Multisig, direct deposits (no wallets), PGP login, 
+BM-Notification System &amp; Autoshop for Digital Goods (CCs, Accounts 
+and so on) – Available in English &amp; German. Supports Monero.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://lchudifyeqm4ldjj.onion/?ai=1675">Dream Market</a> - Been around since around Nov/Dec 2013 – uses Traditional escrow system.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cgmcoopwhempo6a5.onion/">CGMC</a> - The Cannabis Growers and Merchants Cooperative (CGMC) is a private, invite-only marketplace. Since June 2016.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://berluscqui3nj4qz.onion/">Berlusconi Market</a> - Escrow market with direct deposits without wallet.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pyramidboobbekpv.onion/">Pyramid Market</a> - New Escrow market, direct deposits (no wallet)</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://talismanrestz7mr.onion/">The Majestic Garden</a> - Forum for Psychedelics, No fees , No wallets and P2P transactions.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kbyz2vu3fnv2di7l.onion/">Italian Deep Web</a> - Market / Forum in Italian</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hydraruzxpnew4af.onion/">HYDRA (Russian)</a> - Russian Market</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wayawaytcl3k66fl.onion/">WayAway</a> - WayAway, Russian marketplace, who moved to Tor.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ffzone4ry6efpqj3.onion/">French Freedom Zone</a> - French DNM forum – also host an English section (Requires JS)</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://traderouteilbgzt.onion/?r=rvn50">TradeRoute</a> - TradeRoute is a traditional &amp; Multisig escrow marketplace</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tochka3evlj3sxdv.onion/auth/register/563636d36ab740e4720f44e8328441d3">Tochka</a>
+ - T•chka allows you to buy and sell your stuff instantly. And you don’t
+ have to communicate with other party at all. Buy or sell coordinates of
+ your buried treasures. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wallstyizjhkrvmj.onion/signup?ref=276">Wall Street Market</a>
+ - Offer 2/3 Multisig, direct deposits (no wallets), PGP login, 
+BM-Notification System &amp; Autoshop for Digital Goods (CCs, Accounts 
+and so on) – Available in English &amp; German. Supports Monero.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zionshopusn6nopy.onion/">Zion Market</a>
+ - Zion market, 100% multisig with no user wallets. Buyers can choose 
+2-of-2 (server &amp; vendor have the keys) or 2-of-3 (buyer also has a 
+key). 2FA, automated PGP, and Bitmessage alerts. Accept Monero (XMR) by 
+immediately converting it and sending it to your BTC</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cgmcoopwhempo6a5.onion/">CGMC</a> - The Cannabis Growers and Merchants Cooperative (CGMC) is a private, invite-only marketplace. Since June 2016.</li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Blogs_and_personal_sites">Blogs and personal sites</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://opnju4nyz7wbypme.onion/weblog/">Alpha-7-Bravo Blog</a> - Blog with a lot of political material. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://74ypjqjwf6oejmax.onion/">Beneath VT</a> - Information on the steam tunnels at Virginia Tech. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://deepdot35wvmeyd5.onion/">DeepDotWeb</a> - The official onion version of the clearnet site.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://razhy6sxzjacjmk7.onion/blog/">Rebel Stronghold</a> - A counterculture blog covering politics, tech, philosophy and the coming revolution. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bwbvcvmbpnan6xsd.onion/">Shadow Life</a> - Enjoy your stay below the radar</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://7rmath4ro2of2a42.onion/">SoylentNews</a> (<a rel="nofollow" target="_blank" class="external text" href="http://soylentnews.org/">clearnet</a>) - Live Free Or Die! - A dark collaborative news site publishing politcally correct articles only</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torblogjp5rjeyhx.onion/">Torblog</a> Start your own blog for free - and hope the operator does not censor you </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://opalrwf4mzmlfmag.onion/">wowana.me</a> (<a rel="nofollow" target="_blank" class="external text" href="http://opalrwf4mzmlfmag.onion/">HTTPS</a>) - Hidden service for <a rel="nofollow" target="_blank" class="external free" href="https://wowana.me/">https://wowana.me</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://e2sqb4vhesx73o5b.onion/">SecurityLab @ GeorgetownCS</a>
+ - Located in the Department of Computer Science at Georgetown 
+University, the CS SecurityLab is an academic and research facility that
+ investigates problems relating to information assurance and computer 
+and network security.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://djkiri5jiruhxv7u.onion/">DJ KirisJiruh</a> - Personal page of DJ KirisJiruh. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://crfrudzhbpynkmki.onion/">Providers' Commitment for Privacy (PCP)</a> - The website of Providers' Commitment for Privacy (PCP) policy.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jailbreaks.co/">Jailbreaks</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>- Ios Jailbreaking and Hacking information/tutorials</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://4xiz3doafaqvbxjh.onion/">Open Hacking Lab</a> - Useful hacking blog. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://superkuhbitj6tul.onion/">Superkuh</a> - Much information about spectrogram, wireless, and radio.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://onnjtpw627li4hg5.onion/">la Tourmentine</a> - la Tourmentine blog <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://xjkxqan3ovot27c4.onion/">FuckTheCensors</a> - A Tor Micro Blogging Site Powered By GNUSocial</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dua6u3dsufohrnsz.onion/">:(){&nbsp;:|:&amp; };: Blog</a> - Personal blog of&nbsp;:(){&nbsp;:|:&amp; };:. Lives in Paris, France. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://v3bpt2x7iuz3gr2n.onion/">Human Iterations</a> - Personal blog of William Gillis, a second generation anarchist activist who studies high energy theoretical physics. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dbshmc5frbchaum2.onion/">erehwon.dev.null</a>
+ - This is a blog about privacy, freedom and independence. We focus on 
+what users can do, with existing tools. We seek to demystify complex 
+stuff, and make it broadly accessible, with instructions. We encourage 
+self-reliance, and mistrust of marketing bullshit. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://vb75uj2ap3hyyava.onion/">Hacking is Art</a> - Blog about hacking and technology.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ut43zrykquyzxc5v.onion/">Vi Grey</a> - Personal page of Vi Grey.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://u5uewave7nxbwxob.onion/">Joseph K. Robles' TOR Page</a> - Personal page of Joseph K. Robles with links that he finds interesting. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://4hltmu5ywvjivcfe.onion/">TorNode835</a> - Another Hidden Weblog. Only one post from 2011. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://54ogum7gwxhtgiya.onion/category/news/">DimensionX</a> - DimensionX website is directed mainly to the Polish users, however it also has a content in English including a few news </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://57f23hcybjqj4ime.onion/">setThemFree</a>
+ - Personal web space of Yury Bulka. About experimental electronic 
+music, various kinds of technology-oriented and/or conceptual art, as 
+well as free software and the free culture movement. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://5l2fikyudbqg2pse.onion/">Julien WOS</a> - Personal page of Julien WOS. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://6zdgh5a5e6zpchdz.onion/">BenTasker.co.uk</a> - Darknet mirror of BenTasker.co.uk, a personal site for Ben Tasker. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://shadow7jnzxjkvpz.onion/">Shadow Life</a> - Abandoned blog. Last post in 2014. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://264nglqbtqlabsxl.onion/">CyberGuerrilla soApboX</a> - Anonymous blog. }</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://6dvj6v5imhny3anf.onion/">CyberGuerrilla leAkboX</a> - Another Anonymous blog.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://potatooezyf2aql6.onion/">Go Beyond</a> - Blog with politics and fiction stories. </li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Hosting">Hosting</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://fuacantanj2vhfpw.onion/">DarkNet Project</a> - Since 2010! We are the biggest free anonymous hidden services provider in torlands.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hostie65cxwr4tza.onion/">Deep Web Hosting</a> - Secured and anonymous. Linux PHP hosting 100MB and Unlimited Bandwidth.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kowloon5aibdbege.onion/">Kowloon Hosting Services</a> — Stealth TOR hosting. PHP + MySQL + Control panel. 256 MB to 1 GB. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://libertygb2nyeyay.onion/">Liberty's Hackers</a> (<a rel="nofollow" target="_blank" class="external text" href="http://3vnjj7h6c6vw2yh5.onion/hello.php">old</a>) - Service and Hosting Provider in onionland - php5/mysql support, new address for the liberty's hackers hidden service.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://prometh5th5t5rfd.onion/">Prometheus Hidden Services</a> - Payed hosting, provides Virtual Private Server (VPS) with Linux  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://servnetshsztndci.onion/">ServNet</a>
+ -  ServNet Networks operates a global business hosting infrastructure 
+connecting major internet hubs worldwide. We offer you any hosting 
+solution within the most secure infrastructure designed exclusively for 
+Tor Network. No contract or hosting agreement required. Including our 
+"No matter What" services. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jymkf7sx7cldgsbl.onion/">TOR sites making</a> - Need your own hidden .onion site? We can do it! Best prices and quality guaranteed. No any prepayments!  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://thhazdmx2kymozql.onion/">Turkish Hidden Hosting</a> - Turkish Hosting Service nginx+PHP-FPM-MariaDB <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Turkish </span> <b>]</b></sup>  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://http//tcrth4wace2g2ayk.onion/">Tor Free Hosting</a> - Onion web hosting.&lt;/ref&gt;</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hosting6iar5zo7c.onion/">Web Hosting</a> — Web Hosting - Apache, PHP5, MySQL, SFTP Access, .onion Domain, Bitcoin server.24 hours free hosting.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kaizushigdv5mrnz.onion/">Kaizushi's Little Onion Server</a> - Onion hosting running Hardened Gentoo. PHP 7.0, MariaDB 10.0. Runs on physical intrusion resistant Sun Fire hardware </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torpress2sarn7xw.onion/">TorPress</a> - Free WordPress hosting on the darknet. </li></ul>
+<h3><span class="mw-headline" id="Shells.2FVPS">Shells/VPS</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://servnetshsztndci.onion/">Servnet</a> - VPSes with preinstalled LAMP webserver stack.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torvps7kzis5ujfz.onion/">TorVPS Shells</a> - Free torified shell accounts, can be used for .onion hosting, IRC, etc. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://spore64zke3ofvbp.onion/">SporeStack</a> - Deploy VPS servers with Bitcoin. Anonymous, no account needed. Purely API driven. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kaizushigdv5mrnz.onion/index.php?title=Shell_accounts">Kaizushi Shell</a> - Shell account on Kaizushi's server. </li></ul>
+<h3><span class="mw-headline" id="Web_Design">Web Design</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://jymkf7sx7cldgsbl.onion/">TOR sites making</a> - Need your own hidden .onion site? We can do it! Best prices and quality guaranteed. No prepayments!  </li></ul>
+<h3><span class="mw-headline" id="Domain_Services">Domain Services</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://onionname3jpufot.onion/">OnionName</a> (<a rel="nofollow" target="_blank" class="external text" href="https://onionname.com/">onionname.com</a> in clearnet) Buy a readable .onion domain containing any keyword you want. </li></ul>
+<h3><span class="mw-headline" id="Files">Files</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://allupskrvpoalnfi.onion/">allUP</a> File hosting uploader up to 100 MB. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/upload/">Ableonion</a> File hosting uploader with listing of recent uploads. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ipfsbkwxjrrra7u3.onion/">IPFS gateway</a> - Web gateway for* <a rel="nofollow" target="_blank" class="external text" href="https://ipfs.io/">IPFS</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://strngbxhwyuu37a3.onion/">New Yorker Strongbox</a> - Strongbox is a new way for you to share information, messages, and files with our writers and editors anonymously.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jusfileobjorolmq.onion/">Just upload stuff.</a> - File sharing up to 300 MB, files can be available or uploaded over clearnet as well.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://popfilesxuru7lsr.onion/">PopFiles</a> - A place to pop your files! </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://54ogum7gwxhtgiya.onion/tempdrop/">TempDrop</a> - Temporary file hosting File size 10 mb, share for up to 2 weeks.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zerobinqmdqd236y.onion/">ZeroBin</a>
+ - ZeroBin is a minimalist, opensource online pastebin where the server 
+has zero knowledge of pasted data. Data is encrypted/decrypted in the 
+browser using 256 bits AES </li></ul>
+<h3><span class="mw-headline" id="Images">Images</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://powerpicfefyzjjk.onion/">PowerPic Upload Center</a> Image hosting With Direct Link. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/upload/">Ableonion</a> File and image hosting uploader with listing of recent uploads. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://felixxxboni3mk4a.onion/felixxx.php?page=uploader">Felixxx Image Uploader &amp; Pastebin</a> - Only JPG GIF PNG | Max 5 MB | Storage time is 7 days.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://freedomsct2bsqtn.onion/">Freedom Image Host</a> - Image hosting with near-unbreakable encryption.   </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://twlba5j7oo5g4kj5.onion/">Image Host (powered by Sluggers)</a> - Hosts images up to 5MB in file size. Supported Image Formats: png, jpg, jpeg, gif, bmp.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://matrixtxri745dfw.onion/neo/uploader.php">Matrix Image Uploader</a> - Only JPG GIF PNG | Max 5 MB | Storage time is 7 days.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pix4torywrdi4tzo.onion/">Pix</a>
+ - Pix is a hosting service images without size limitation which does 
+not degrade the quality. Fully secured by AES and PBKDF2, the images 
+sent are therefore visible by those in the full link. Supports multiple 
+file upload. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup>  <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2016-12-12</span> <b>]</b></sup></li></ul>
+<p><br>
+</p>
+<h3><span class="mw-headline" id="Pastebins">Pastebins</span></h3>
+<p>Decentralised pastebins, based off the NNTP protocol and SRNd software:
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://felixxxboni3mk4a.onion/felixxx.php?page=pastebin">Felixx Pastebin</a> - Post It here! </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://54ogum7gwxhtgiya.onion/insertor/">InserTor</a> - New Pastebin for Tor! </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://mc6nld3smffo3vgm.onion/">PastePad</a> (<a rel="nofollow" target="_blank" class="external text" href="http://mc6nld3gmkz4l4sk.onion/">alternate</a>) - A simple pastebin not much else. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://postits4tga4cqts.onion/">Post it!</a> - Your Tor pastebin </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://writeas7pm7rcdqg.onion/">Write.as</a> <i>(<a rel="nofollow" target="_blank" class="external text" href="https://write.as/">clearnet</a>)</i> - Paid publishing service. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://depastedihrn3jtw.onion/">DeepPaste</a> (<a rel="nofollow" target="_blank" class="external text" href="http://4m6omb3gmrmnwzxi.onion/">alternate</a>) - Your Deep-Shit Hoster for special shit. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pastebinkaav4f5x.onion/">Yet Another PasteBin</a> - Yet Another Tor Pastebin. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pastagdsp33j7aoq.onion/">Pasta</a> - Pastabin with multiple options, including Self burning &amp; editable. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://nzxj65x32vh2fkhk.onion/">StrongHold Paste</a> - Pastebin with multiple expiration and viewing options. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://wo57yc5oiry6xukk.onion/">OmniBin</a> - Paste your brains out.</li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Email_.2F_Messaging">Email / Messaging</span></h2>
+<h3><span class="mw-headline" id="Free_Email_Providers">Free Email Providers</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://tormailnkbrjfwby.onion/">TorMail</a>(<a rel="nofollow" target="_blank" class="external text" href="https://tormail.io/">clearnet</a>) - Paid @tormail.io account. Quality service, 100% uptime and totally anonymous. The best option for business.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cockmailwwfvrtqj.onion/">cock.li</a> (<a rel="nofollow" target="_blank" class="external text" href="https://cock.li/">Clearnet link</a>) - E-mail and XMPP service that provides webmail and IMAP access. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://protonirockerxow.onion/">ProtonMail</a> (<a rel="nofollow" target="_blank" class="external text" href="https://protonmail.ch/">clearnet</a>)
+ - Fully encrypted email hosted in Switzerland offering free accounts 
+and ability to add custom domains and extra features/space for BTC. 
+Requires clearnet HTTPS signup &amp; JavaScript! Must pay or verify via 
+previously existing email or SMS to get an account now! &lt;ref&gt;<a rel="nofollow" target="_blank" class="external free" href="http://www.theregister.co.uk/2017/01/19/protonmail_launches_tor_hidden_service/">http://www.theregister.co.uk/2017/01/19/protonmail_launches_tor_hidden_service/</a>&lt;/ref&gt;  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://secmailw453j7piv.onion/src/login.php">secMail.pro</a> -  secMail is a complete mail service that allows you to send and receive mails without violating your privacy.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torbox3uiot6wchz.onion/">TorBox</a> - TOR only secure and private email service. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cadamailgxsy6ykq.onion/">CIcada mail</a> / (<a rel="nofollow" target="_blank" class="external text" href="http://cadamail.com/">Clearnet link</a>) - new free clearnet/darknet email service with pop3/imap/smpt, xmpp, online chats, a social based on galaxy2, and more </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://grrmailb3fxpjbwm.onion/">Guerrilla Mail</a> / (<a rel="nofollow" target="_blank" class="external text" href="https://guerrillamail.com/">clearnet</a>) - Disposable Temporary E-Mail Address. No registration, email accounts lasts 60 mins. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://www.mail1click.com/">Mail1Click</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - Free Secure email service hosted in Dubai. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ozon3kdtlr6gtzjn.onion/#">@o3mail.org</a> - Free @o3mail.org accounts </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://en.louhlbgyupgktsw7.onion/directory.html">OnionMail</a> and* <a rel="nofollow" target="_blank" class="external text" href="http://en.onionmail.info/directory.html">onionmail.info</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>
+ - Large directory of free OnionMail servers with POP3 and IMAP support.
+ Featuring a clearnet gateway, OnionMail is protected from NSA 
+espionage. No TBB webmail! Use Thunderbird + Torbirdy +  Enigmail. <i>Caveat emptor:</i>
+  Sysops do not guarantee retention of mail beyond (usually) 30 
+days&nbsp;:-(  Also their "RULEZ" file is in poor (Italian guy) English 
+(see section [15.0] Short names) which also perhaps makes one wonder 
+whether these people know what they are doing at all. Being open source,
+ OnionMail has great potential and most often is as reliable as some of 
+the free alternatives (Make sure you can test functionality). </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://nzh3fv6jc6jskki3.onion/">Riseup.net</a> / (<a rel="nofollow" target="_blank" class="external text" href="https://mail.riseup.net/">clearnet</a>)
+ - Free, privacy-focused email provider. You need to get an invite code 
+from an existing riseup.net user. Riseup uses many onions,* <a rel="nofollow" target="_blank" class="external text" href="https://riseup.net/en/security/network-security/tor#riseups-tor-hidden-services">listed here</a>.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://www.safe-mail.net/">Safe-Mail.net</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - Free secure, encrypted mail system hosted in Israel. You must email to request a free account. see <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Talk:Safe-Mail.net&amp;action=edit&amp;redlink=1" class="new" title="Talk:Safe-Mail.net (page does not exist)">Talk:Safe-Mail.net</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://scryptmail.com/">Scryptmail</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>
+ - Free and open source, works with Tor, no sms verification. SCRYPTmail
+ hides all of the technical details and delivers usable and secure email</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://tutanota.com/">Tutanota</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - Free encrypted mailbox. All basic customer data in Tutanota are encrypted end-to-end.</li></ul>
+<h3><span class="mw-headline" id="Paid_Email_Providers">Paid Email Providers</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://tormailnkbrjfwby.onion/">TorMail</a>  - Anonymous premium email service similar to Lavabit. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://lelantoss7bcnwbv.onion/">Lelantos</a> - Paid @lelantos.org account (Webmail, SMTP, POP3 and IMAP access). </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fuacantanj2vhfpw.onion/">Anonymail</a> - $45 / Year for 10GB disk space with IMAP, POP3, SMTP access. @fuacantanj2vhfpw.onion and anonymail.tech addresses.</li></ul>
+<h3><span class="mw-headline" id="Messaging">Messaging</span></h3>
+<h4><span class="mw-headline" id="Instant_Messaging_and_Bitmessage">Instant Messaging and Bitmessage</span></h4>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://blog.torproject.org/blog/tor-messenger-beta-chat-over-tor-easily/">Tor Messenger</a>
+   - Official Tor messenger from TorProject. Currently in Beta. It is 
+based on Instantbird, and sends all of its traffic over Tor. It supports
+ a wide variety of transport networks, including Jabber (XMPP), IRC, 
+Google Talk, Facebook Chat, Twitter, Yahoo, and others; enables 
+Off-the-Record (OTR) Messaging automatically <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Protected_Link&amp;action=edit&amp;redlink=1" class="new" title="Template:Protected Link (page does not exist)">Template:Protected Link</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bitmailendavkbec.onion/">BitMessage E-mail Gateway</a> dark, or* <a rel="nofollow" target="_blank" class="external text" href="https://bitmessage.ch/">via</a><sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - Connects bitmessage and e-mail services.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://anonboy5e4z6vxdl.onion/">anonboy5e4z6vxdl.onion</a> - Free jabber server. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://bitmsg.me/">Bitmessage Me</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>
+ - Bitmessage web application, that gives ability to send and receive 
+Bitmessages directly from a web browser. Requires Javascript.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://ricochet.im/">Ricochet</a> - Anonymous peer-to-peer instant messaging (Torchat alternative)</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ihacker355hscnhv.onion/">ihacker355hscnhv.onion</a> - Free jabber server. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cwu7eglxcabwttzf.onion/">Confidant Mail</a>
+ - An open-source non-SMTP cryptographic email system optimized for 
+large file attachments. It is a secure and spam-resistant alternative to
+ regular email and online file drop services. It uses GNU Privacy Guard 
+(GPG) for content encryption and authentication, and TLS 1.2 with 
+ephemeral keys for transport encryption.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cyjabr4pfzupo7pg.onion/">CYJABR</a> - CYRUSERV Community Jabber server, redirects to infantile. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://infantilefb6ovh4.onion/">Infantile XMPP</a> - Infantile XMPP Server.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://adamantmsg72ixni.onion/">ADAMANT Messenger</a>
+ - Tor app for Decentralized anonymous Messenger. Open-source. In-Chat 
+crypto transfers. Censorship is impossible. One second to create an 
+account.</li></ul>
+<h4><span class="mw-headline" id="Chat_rooms">Chat rooms</span></h4>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/chat/">Ableonion Chat</a> - Realtime chat. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tetatl6umgbmtv27.onion/">Chat with strangers</a> - Tor Chat roulette style service that allows a user to instantly connect to other anonymous  users and just chat, no camera.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://http//chattorci7bcgygp.onion">ChatTor</a> - A chat room. Nobody knows you're a dog</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tt3j2x4k5ycaa5zt.onion/chat.php">Daniels Chat (Le Chat PHP)</a> - Completely without JS! Pure Torbrowser chat without any add-ons. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/rchat/">Random Chat</a> - One-to-one random chat. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hb2z3skucfnjdrj7.onion/chat.php">Tabooless Chat</a> (<a rel="nofollow" target="_blank" class="external text" href="http://beam.to/Tabooless">alternate short link</a>)
+ - If you like Freedom of Speech come and enjoy chating and sharing with
+ other fans (Please no spam &amp; Tag Extreme Images) EN &amp; DE </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jlp4t5i2pvwdvkx3.onion:8080/">*.* Chat</a> - Online Chat made by* <a rel="nofollow" target="_blank" class="external text" href="https://www.reddit.com/user/SBTlaurien">/u/SBTlaurien</a></li></ul>
+<h4><span class="mw-headline" id="IRC">IRC</span></h4>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://chat.vola7ileiax4ueow.onion/">Volatile</a> - Volatile web IRC. Requires JavaScript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://iamga4oeazl6i7aa.onion:7778/">HiddenIRC Tor</a> - A web IRC. Requires JavaScript for the webIRC. It also has a <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=I2P" title="I2P">I2P</a> service. &lt;ref&gt;<a rel="nofollow" target="_blank" class="external free" href="https://www.reddit.com/r/onions/comments/5djhgd/hiddenirc_tori2p_irc_server/">https://www.reddit.com/r/onions/comments/5djhgd/hiddenirc_tori2p_irc_server/</a>&lt;/ref&gt;</li></ul>
+<h2><span class="mw-headline" id="PGP_Key_Servers">PGP Key Servers</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://qdigse2yzvuglcix.onion/">SKS OpenPGP Key server</a> - Search for a public key or submit a key. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://nfkrkvghv75xsf26.onion/">SKS OpenPGP Key server</a> - ams.sks.heypete.com </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://o4wwol2kcqzwszjz.onion/">SKS OpenPGP Key server</a> - keys.nerds.lu </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://obrrsrw6b3rjuibx.onion/">SKS OpenPGP Key server</a> - sks.srv.dumain.com </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pt2iydrrm6jco65i.onion/">SKS OpenPGP Key server</a> - keyserver.metalgamer.eu </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://libertygb2nyeyay.onion:11371/">SKS OpenPGP Key server</a> -  Search for a public key or submit a key. </li></ul>
+<h2><span class="mw-headline" id="Forums">Forums</span></h2>
+<h3><span class="mw-headline" id="Hack.2C_Phreak.2C_Anarchy_.28internet.29.2C_Warez.2C_Virus.2C_Crack">Hack, Phreak, Anarchy (internet), Warez, Virus, Crack</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://gf2juatsqdph6x2h.onion/">Torum</a> Hacking themed forum, dozens of tutorials for various topics!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://rn5aofk6r5bzuecs.onion/">Darknet Forums</a> Hacking, Tech, Coding and Market</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hhhuwppvm3fbuipb.onion/">MrRobotShop</a> - Fraud Marketplace | CCV, PAYPAL, PASSPORT, FULLZ and more&nbsp;!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://abovekpnoab2smzj.onion/">AboveTheLaw</a> - Fraud Forum &amp; Marketplace | Registration is open&nbsp;!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qzbkwswfv5k2oj5d.onion/">0day</a> (<a rel="nofollow" target="_blank" class="external text" href="https://0day.in/">clearnet</a>) - 0day Forums | Hacking, Carding, Security</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://asylumdlmb6gne6g.onion/">Asylum</a> - Fraud &amp; Carding Forum - Open Registration</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://35veujgfmflg7bvf.onion/">Beta Forums</a> - apply for full access. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://exoduockgfq3ikf7.onion/">Ex0du$</a> - Forum and Marketplace | Hacking, Malware, Leaks, Exploits, Carding and more!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ranionjgot5cud3p.onion/">Ranion (RaaS)</a> - Ransom (RaaS) | Cheapest Ransomware and C&amp;C as a Service with no Fees </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://mjtk53uzufume6op.onion/index.html">Hell on Earth</a> Hacking board discussion links </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kickassugvgoftuk.onion/">Kick-Ass</a> - Best Forum and Marketplace | Hacking, Malware, Leaks, Exploits, Carding and more!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ni4hu4dadh5z2bur.onion/">FB Hackers</a> - The only legit FB hackers around (contacts on the inside). We succeed or we refund 50% of your payment </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wqekut2pocn45hwp.onion/forums/index.php">Brotherhood Hackers</a> - new forums with good hacking tips and tools</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://yukoni2bjn5woljf.onion/rus/">Yukon</a>(<a rel="nofollow" target="_blank" class="external text" href="https://yukon.to/">clearnet</a>) - Do your best at Yukon.to - the first anonymous freelance service in the world. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://lcvkso2t5t3cmy3x.onion/">Hack Canada</a> - America is a joke and Canada is the punchline. Old-ish hacking site, hosts a few archives.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pmwdzvbyvnmwobk5.onion/">Hackerspace Prague</a>
+ - Brmlab is a non-profit, community-run hackerspace in Prague. We 
+provide a space where people who make things can come to share tools and
+ knowledge.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://p5ckdxdgdrcys5vg.onion/">Hack Manhattan</a>
+ - Blabber is the general mailing list for Hack Manhattan. Feel free to 
+post a message introducing yourself and your interests, and participate 
+in the discussion. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torvps7kzis5ujfz.onion/">TorVPS Wiki</a>
+ - Started in April 2013, the original TorVPS server provides free Linux
+ shell accounts to anyone who requests one. Over the years, TorVPS has 
+hosted websites, IRC networks, games, streaming radio, and dozens of 
+other services for its users.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ip-grabber.com/">IP-GRABBER</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> Free TELECOM Services / IP-STRESS TESTING / Call Stresser / SMS Stresser <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Hacking" title="Hacking">hacking</a>.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hybedxst6ulae4oh.onion/">Scan4You.net</a> (<a rel="nofollow" target="_blank" class="external text" href="http://scan4you.net/">clearnet</a>) - Online Anonymous Virus and Malware Scan </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pbzl5p2uyganwo3k.onion/">The Onion Scanner</a>
+ - This hidden service uses existing software to scan onion addresses 
+for vulnerabilities and returns a simple report to the user. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://4xiz3doafaqvbxjh.onion/">Open Hacking Lab</a> - Useful hacking blog.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://aor7i3pvrpcnww75.onion/">Blackmail Service</a> - Service to blackmail people. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torsniffrqvvkv4x.onion/">TorSniffr</a> - Test any TOR onion URL and check the HTTP response. TorSniffr is a web-sniffer.net/TestURI.org alternative for onion land.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://jratiejtelswmbov.onion/">jRAT</a> - Sells jRAT, a Remote Administration Tool written in Java</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://24hcpmhhmtdkccam.onion/">24hcpmhhmtdkccam</a> - Has guides, codes, and database dumps.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hackcanl2o4lvmnv.onion/blackcrawl/index.html">- Black Crawling Systems Archives</a>
+ - The Black Crawling Systems Archive was founded by Brian Oblivion. 
+Originally a Boston based BBS from 1990-1993. We really liked this 
+archive and could not bear to see it die. Although some of the files may
+ be outdated, and may only pertain to Americans, most of it will always 
+be relevant and interesting to everybody.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://m7imyjppzh2ftfgz.onion/">Spartan's Dark Rift</a></li></ul>
+<h3><span class="mw-headline" id="Other_Forums">Other Forums</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://answerstedhctbek.onion/">Hidden Answers</a> Hidden Answers forum</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dnmavengeradt4vo.onion/">DNM Avengers</a> - Darknet drug forum with reviews, marketplace discussion, and harm reduction techniques. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://onionlandbakyt3j.onion/">OnionLand</a> - Discussion forum about all the Darkweb markets related topics </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://b34xhb2kjf3nbuyk.onion/">The Stock Insiders</a> - How to Beat Wall Street. The community for exchanging Insider Information about the Publicly Traded Companies. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qzbkwswfv5k2oj5d.onion/">0day</a> - 0day forums | hacking, carding, security</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://answerstedhctbek.onion/">Hidden Answers</a> Hidden Answers forum</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://vrmfaneizwqouf5k.onion/wisdom/">A-alphacrew Forum®</a>
+ - Tor-based Premium underground carding community specializing in the 
+trade of stolen credit card details, identity theft and currency 
+counterfeiting.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ocu3errhpxppmwpr.onion/">AnonGTS</a> The Anonymous GTS Forum (for artists, manga, hentai, etc)  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ccqvltabnwq57ivi.onion/forum">AB CC Quality Vendor</a> - #1 Carding Forum for CCs and Paypal, since 2011 Active 24/7  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pyl7a4ccwgpxm6rd.onion/w/index.php/Special:AWCforum/">CODE:GREEN Hacktivist Forum</a> - Ethical hacktivism for a better world  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://secretsxsrvlpawm.onion/">Confess Your Secrets</a> - Everyone has secrets - Time to tell the world about yours.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://nwokdsqhsmtgs5n5.onion/">Darknet Tech</a> - Technology forum -new-  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://exoduockgfq3ikf7.onion/">Ex0du$</a> - Forum and Marketplace | Hacking, Malware, Leaks, Exploits, Carding and more!  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fantomwf4luxar7u.onion/">Fantom</a> - the Best Forum for Paranoid People.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kxojy6ygju4h6lwn.onion/forum/">FLASHLIGHT</a> - Deepweb community. News, links, reviews, forum and more.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://rrcc5uuudhh4oz3c.onion/">The Intel Exchange</a> - Know or need to know something? Ask and share at this underground intelligence gathering network.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kickassugvgoftuk.onion/">Kick-Ass marketplace</a> - Insider Trading forum.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fbcy5ylyoeqzqzcr.onion/">Moneybook</a> - Finance and security forums. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zoyel6xobic62353.onion/">New Order Directive</a>
+ - "To establish a global ruling entity to maintain order in society 
+through pursuits of strength, power, and survival that provide a 
+sustainable way of life for all members to evolve and rule in the new 
+world order." </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://thundersplv36ecb.onion/">Thunder's Place</a> - Thunder's Place Penis Enlargement and Male Sexual Health Forum.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://gf2juatsqdph6x2h.onion/">Torum</a> - Hacker and I.T Forum  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://weasylartw55noh2.onion/">Weasyl</a>
+ - Weasyl is a social gallery website designed for artists, writers, 
+musicians, and more to share their work with other artists and fans.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://2ppcspuyefszmqrd.onion/forum/">Interesting Garbage Collector</a>- Closed forum about hacking and conspiracies.  </li></ul>
+<p><br>
+</p>
+<h2><span class="mw-headline" id="Dox">Dox</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://doxbinbuhlhndwzi.onion/">DOXBIN</a>
+ - There are no limits on what kind of info you can post, so feel free 
+to drop SSNs, financial, medical info, or anything else that is 
+blatantly illegal. We have a strict non-removal policy, so once the dox 
+go up, they stay up unless they are inaccurate, or you didn't include at
+ least a name and address. </li></ul>
+<h2><span class="mw-headline" id="Biohacking">Biohacking</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://selxabxjpryy7jna.onion/">Biohacking archive</a> - A biohacking archive.</li></ul>
+<h2><span class="mw-headline" id="Other_2">Other</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://shrtor.com/">Onion Url Shortner</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - Easy to use Onion Url Shortner so no need to bookmark anymore.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://git.vola7ileiax4ueow.onion/">Volatile Git</a> - Git hosting provided by* <a rel="nofollow" target="_blank" class="external text" href="https://gogs.io/">Gogs</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> software. Open registration with HTTP/S, GIT, and SSH access over onion and clearnet. </li></ul>
+<h2><span class="mw-headline" id="Freenet_Links">Freenet Links</span></h2>
+<h3><span class="mw-headline" id="Blogs_and_personal_sites_2">Blogs and personal sites</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://127.0.0.1:8888/freenet:USK@jIuv60OiRLESjEgXH-bdEfQuvSky8YUaMnnFhu--nnw,09qsMUIe0oCwxksObxyMjvQFsTDbjc4cE1PSouIaGac,AQACAAE/NIEI/2/">Network Identity Experiment Institute</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Freenet&amp;action=edit&amp;redlink=1" class="new" title="Template:Freenet (page does not exist)">Template:Freenet</a> - Freenet site of the Network Identity Experiment Institute.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://127.0.0.1:8888/freenet:USK@ATl4zRvs6fOKKummkVtC48t3dCPEzQOuuCT4jLh5h~w,ezF5JYyb74lWLTg5REu9PU4zlWZVF9kvaNn10MzYs0U,AQACAAE/ghost_town/8/">Journey to Tchernobyl 18 years later</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Freenet&amp;action=edit&amp;redlink=1" class="new" title="Template:Freenet (page does not exist)">Template:Freenet</a>
+ - A journal about a tourney to the abandoned city of Chernobyl, 18 
+years after the catastrophic nuclear accident. This project was inserted
+ into freenet in June 2011</li></ul>
+<h2><span class="mw-headline" id="P2P_Filesharing">P2P Filesharing</span></h2>
+<h4><span class="mw-headline" id="Tor_Onions">Tor Onions</span></h4>
+<p>Running P2P protocols within Tor requires <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionCat&amp;action=edit&amp;redlink=1" class="new" title="OnionCat (page does not exist)">OnionCat</a>. Therefore, see the <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page#OnionCat_Addresses" title="Main Page">OnionCat section</a> for those P2P services.
+<br>IMPORTANT: It is possible to use Tor for P2P. However, if you do, the right thing must also be done by <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=P2P_Bandwidth&amp;action=edit&amp;redlink=1" class="new" title="P2P Bandwidth (page does not exist)">giving back</a> the bandwidth used. Otherwise, if this is not done, Tor will be crushed taking everyone along with it.
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://demonhkzoijsvvui.onion:8080/">Demonoid</a>  - semi-private BitTorrent tracker. &lt;ref&gt;<a rel="nofollow" target="_blank" class="external free" href="https://twitter.com/demonoidp2p/status/578602587399659520">https://twitter.com/demonoidp2p/status/578602587399659520</a>&lt;/ref&gt;&lt;ref&gt;http://school-of-privacy.com/post/114849648001/demonoid-recently-setup-a-tor-service-why-other&lt;/ref&gt;
+ </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://uj3wazyk5u4hnvtk.onion/">The Pirate Bay</a> - The Pirate Bay. &lt;ref&gt;<a rel="nofollow" target="_blank" class="external free" href="https://www.reddit.com/r/TOR/comments/1k35o1/the_pirate_bay_releases_torbased_pirate_browser/">https://www.reddit.com/r/TOR/comments/1k35o1/the_pirate_bay_releases_torbased_pirate_browser/</a>&lt;/ref&gt;   &lt;/protect&gt;</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://x4torrentjjjjuxy.onion/">Torrent Project</a>
+  - A clean, fast and accurate bittorrent search engine. Collecting, 
+searching torrents and verifing torrent data from bittorrent dht 
+network, thepiratebay and more than 300 other torrent sites.   
+&lt;/protect&gt;</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://torrentzwealmisr.onion/">Torrentz<sup>2</sup></a> - Successor to the Torrentz meta-search engine, combining results from dozens of torrent sites. <sup><b>[<b><font color="LightSteelBlue">NEW</font></b></b> 2016-09-03<b>]</b></sup>  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wtwfzc6ty2s6x4po.onion/">Sea Kitten Palace</a> - Torrent site and tracker for extreme content (real gore, animal torture, shockumentaries/mondo cinema, and Disney movies)<b><a rel="nofollow" target="_blank" class="external text" href="http://felixxxboni3mk4a.onion/img/uploads/170211/Felixxx_230632qmz_honeypot.png"><span style="color: red">WARNING This is a Honeypot</span></a>   </b></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bitsnoop.com/">Bitsnoop</a> - Bitsnoop. <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://torrentz.eu/">Torrentz</a> - Torrentz.eu <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup></li></ul>
+<h2><span class="mw-headline" id="Erotica">Erotica</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://xteenchan.com/">Young Teen Sites Toplist</a> - Teen Videos Porn Pictures. *Clearnet</li></ul>
+<h3><span class="mw-headline" id="Non_Commercial">Non Commercial</span></h3>
+<p><i>Adult websites onion list</i>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://darkscajypej2zfu.onion/">DarkScandals</a> - a lot of real blackmail, real rape, real forced and a lot more rare videos of girls.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://illsexpoemad3wyy.onion/">IllSexPoem</a> - The Youngest models are waiting for you on the pages of this website.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://deeppornx5rnxn5j.onion/">DeepPorn</a> - the biggest porn tube of the darknet</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://breathrzhfvcggku.onion/">Raped Bitch</a> - real rape and blackmail video pack</li></ul>
+<h2><span class="mw-headline" id="Leaks">Leaks</span></h2>
+<h3><span class="mw-headline" id="General">General</span></h3>
+<p><i>For sites that publish whistleblowing documents and datas.</i>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://ppdz5djzpo3w5k2z.onion/#/">Secure Wildlife Whistleblowing</a> - wildlife whistle blowing against poachers, animal traffickers etc. (requires javascript)  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://w6csjytbrl273che.onion/#/">Associated Whistleblowers</a> - Associated whistleblowers (requires javascript) <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2017-09-06</span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hackcanl2o4lvmnv.onion/">Hack Canada</a> -  From time-to-time we do things that get attention from the dinosaur media.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://h2am5w5ufhvdifrs.onion/">Cryptome</a>
+ - Archive Government Leaks. Documents for publication that are 
+prohibited by governments worldwide, in particular material on freedom 
+of expression, privacy, cryptology, dual-use technologies, national 
+security, intelligence, and secret governance -- open, secret and 
+classified documents -- but not limited to those. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://76ssfjn22svo4vyl.onion/">Search Cryptome.org archive</a> - Cryptome archive (Wikileaks subsidiary)  </li></ul>
+<h3><span class="mw-headline" id="Whistleblowing_Submission_Sites">Whistleblowing Submission Sites</span></h3>
+<p><i>Submission sites for whistleblowers. Generally speaking, you can not download documents from these, only upload.</i>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://secrdrop5wyphb5x.onion/">SecureDrop</a> (<a rel="nofollow" target="_blank" class="external text" href="https://securedrop.org/">Clearnet</a>)
+ - An open-source whistleblower submission system that media 
+organizations can use to securely accept documents from and communicate 
+with anonymous sources. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://y6xjgkgwj47us5ca.onion/">The Intercept submission Portal</a>  - The Intercept submission Portal. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ad2ztmbv5vmbj7ic.onion/">CBC Secure Drop</a><i>(<a rel="nofollow" target="_blank" class="external text" href="https://securedrop.cbc.ca/">Clearnet</a>)</i> - Secure Drop for the Canadian CBC News Network </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://2x2hb5ykeu4qlxqe.onion/">CPJ Secure Drop</a>  - Secure Drop for The Committee to Protect Journalists. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://lijbt6ju7m6opkzb.onion/">Espen Andersen Secure Drop</a>  - Espen Andersen is a researcher and developer at the digital investigative unit at Norwegian Broadcast Corporation. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://znig4bc5rlwyj4mz.onion/">ExposeFacts Secure Drop</a>
+  - ExposeFacts aims to shed light on concealed activities that are 
+relevant to human rights, corporate malfeasance, the environment, civil 
+liberties and war. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://n572ltkg4nld3bsz.onion/">Toronto Globe and Mail Secure Drop</a>  - A Canadian News Network based in Toronto. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://33y6fjyhs3phzfjj.onion/">The Guardian's Secure Drop service</a>  - The Guardian is a well known and renowned News Network based in the United Kingdom. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ll6edwtpfl3zdwoi.onion/">Greenpeace New Zealand Secure Drop service</a>  - Greenpeace New Zealand Secure Drop service.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qn4qfeeslglmwxgb.onion/">Lucy Parsons Labs Secure Drop service</a>
+  - The Lucy Parsons Labs is a Chicago-based collaboration between data 
+scientists, transparency activists, and technologists which focuses on 
+the intersection of digital rights and on-the-streets issues. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://udrciweihl4qe63p.onion/">NEOSleaks Secure Drop service</a>  - NEOSleaks Secure Drop <sup><b>[</b> <span style="color: Gray"><b>Language:</b> German </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://strngbxhwyuu37a3.onion/">The New Yorker Secure Drop service</a>  - The New Yorker is an American News Network. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://nrktipspgpsyoqwo.onion/">NRKbeta Drop service</a>  - NRKbeta is an Norwegian News Network. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Norwegian </span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dqeasamlf3jld2kz.onion/">Project On Gov't Oversight (POGO) Drop service</a>
+  -  Project On Government Oversight (POGO) is a nonpartisan independent
+ watchdog that champions good government reforms. POGO’s investigations 
+into corruption, misconduct, and conflicts of interest achieve a more 
+effective, accountable, open, and ethical federal government. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pubdrop4dw6rk3aq.onion/">ProPublica's Secure Drop service</a>  -  ProPublica is an independent, non-profit newsroom that produces investigative journalism in the public interest. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hpjw636qnt5avq62.onion/">Radio24syv's Secure Drop service</a>  -  Radio24syv is a Danish news network. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Danish </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://w5jfqhep2jbypkek.onion/">Radio-Canada Secure Drop service</a>  -  Radio24syv is a Canadian News Network. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://v6gdwmm7ed4oifvd.onion/">Barton Gellman TCF Mail Vault</a>
+  - Barton Gellman is a journalist at The Century Foundation. The 
+Century Foundation is a progressive, nonpartisan think tank that seeks 
+to foster opportunity, reduce inequality, and promote security at home 
+and abroad.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://vbmwh445kf3fs2v4.onion/">The Washington Post Secure Drop service</a>  - The Washington Post is an American News Network.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cxoqh6bd23xa6yiz.onion/">VICE Media Secure Drop service</a>  - VICE Media is a Canadian-American digital media and broadcasting company. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://poulsensqiv6ocq4.onion/">Wired's Kevin Poulsen Secure Drop service</a>  - Journalist and author Kevin Poulsen is investigations editor at WIRED and cofounder of the award-winning Threat Level blog. </li></ul>
+<h2><span class="mw-headline" id="Other_Leaks">Other Leaks</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://lulzwrzcle5ks3se.onion/">Fappening Onion Compilation</a> - Leaked celebrity nudes.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://twulujga5k2t3i6c.onion/">Telecomix Blue Cabinet Wiki</a> (<a rel="nofollow" target="_blank" class="external text" href="http://npkn2tsan5be7abni7dex7t65jevtifwj2u37uk3xuhvabb6yzwq.b32.i2p/">i2p</a>)   </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://projpmcxufvim7be.onion/">Project PM</a> (<a rel="nofollow" target="_blank" class="external text" href="http://wiki.project-pm.org/">clearnet</a>) - Crowd sourced investigation focused on research and analysis of the military industrial spy complex.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://pedorabox.torpress2sarn7xw.onion/">PedoraBox</a> - List of Pedophiles IP Addresses.  </li></ul>
+<h2><span class="mw-headline" id="Image_Boards_.28chans.29">Image Boards (chans)</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://oxwugzccvk3dk6tj.onion/">8chan</a> - textboard/imageboard. (dead)</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://vrimutd6so6a565x.onion/index.php/Welcome/to/the/dark/lair">The Dark Lair</a>
+ - The Dark Lair was born as a free message dashboard and shared 
+gallery. Now this place is a real Social Network where Dark Net users 
+can share their posts and engage.   </li>
+<li> Overchan:</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://oniichanylo2tsi4.onion/">overchan.oniichan</a> - Run by chi, available on <a rel="nofollow" target="_blank" class="external text" href="http://g7c54d4b7yva4ktpbaabqeu2yx6axalh4gevb44afpbwm23xuuya.b32.i2p/">i2p</a>.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ev7fnjzjdbtu3miq.onion/">Chan on nntpchan</a></li></ul>
+<p>see <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Darknet" title="Darknet">darknet</a>
+</p>
+<h2><span class="mw-headline" id="BBS_.28Bulletin_board_system.29">BBS (Bulletin board system)</span></h2>
+<ul><li> Torduckin - <a rel="nofollow" target="_blank" class="external text" href="http://www.citadel.org/">Citadel</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> BBS with chat and IM to support <a rel="nofollow" target="_blank" class="external text" href="http://www.magusnet.com/proxy.html">Torduckin</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://3mrdrr2gas45q6hp.onion:2000/">1st</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://q2uftrjiuegl4ped.onion:2000/">2nd</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tghtnwsywvvhromy.onion:2000/">3rd</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wx3wmh767azjjl4v.onion:2000/">4th</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://76xkbxgntgu2uwxb.onion/">SAGE BBS</a> -- Project SAGE is an avant-garde textboard. Dedicated to technoliberalism, hacking and taoism. Chat included.  </li></ul>
+<h2><span class="mw-headline" id="Social_Networks">Social Networks</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://www.facebookcorewwwi.onion/">Facebook</a> (<a rel="nofollow" target="_blank" class="external text" href="https://facebook.com/">clearnet</a>) - Offical Facebook .onion. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://w363zoq3ylux5rf5.onion/">Galaxy 2</a> - A new social network based on the old Galaxy community. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://3kzlynqs5qccpsli.onion/">Atlayo</a> - anonymous freedom social network. {</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://blkbook3fxhcsn3u.onion/">BlackBook</a> - Social media site (The facebook of TOR). Requires JS to register.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://injz4qvzyun6zq3a.onion/">Torbook</a> - Social media site (The facebook of TOR) </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://http//mstdnelm5phqmrl7.onion/">Hidden Mastodon</a> - First mastodon instance in TOR. Requires SMTorP-enabled email address to register.</li></ul>
+<h2><span class="mw-headline" id="Research_Papers">Research Papers</span></h2>
+<ul><li><a rel="nofollow" target="_blank" class="external text" href="http://scihub22266oqcxt.onion/">Sci-Hub</a> (<a rel="nofollow" target="_blank" class="external text" href="http://sci-hub.bz/">Backup 1</a> <a rel="nofollow" target="_blank" class="external text" href="http://sci-hub.cc/">Backup 2</a>) - Public access to tens of millions of research papers. </li></ul>
+<h2><span class="mw-headline" id="Public_libraries">Public libraries</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://duskgytldkxiuqc6.onion/">The Federalist Papers</a> - This is a technological example page for Tor's <i>rendez-vous</i> points system - otherwise some crap read stuff there&nbsp;:-( </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://xfmro77i3lixucja.onion/">Imperial library of trantor</a> <i>(<a rel="nofollow" target="_blank" class="external text" href="http://xfmro3e2pkpej6tw.onion/">Alternate Link?</a>)</i> - also known as Galactic Library. Repository of DRM-free ebooks of ePub format. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://inclibuql666c5c4.onion/">The Incorrect Library</a>
+ - 1100 books (and counting...) A clone of the Radical Militant Library,
+ with a focus on publishing politically incorrect books. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="https://krystallnacht.com/lib/">Krystallnacht</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> - A pretty decent collection of books, having mostly to do with <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Occult&amp;action=edit&amp;redlink=1" class="new" title="Occult (page does not exist)">occult</a> and <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Magick&amp;action=edit&amp;redlink=1" class="new" title="Magick (page does not exist)">magick</a>.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://iww2iqhwxmnbh4qs.onion/">Marx and Engels collected works</a> by Karl Marx </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://kpynyvym6xqi7wz2.onion/">ParaZite</a> - Collection of forbidden files and how-to's (pdf, txt, etc.). Organized poorly.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://sblib3fk2gryb46d.onion/">Traum library mirror</a>
+ - like 162,969 titles, 60GB (or whatever) of Russian and English books.
+ Latest Traum ISO. Covers, search and downloads in FB2, HTML and plain 
+TXT. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Russian </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hackerw6dcplg3ej.onion/">Hackerplace</a> - Guides and books on hacking. <sup><b>[<b><font color="LightSteelBlue">NEW</font></b></b> 2016-08-28<b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://libraryqtlpitkix.onion/library/">/library/</a> Library of many different how-to guides and books. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zupyv3e5spdok6nw.onion/">- Datenhangar Repo</a> - ebooks, music, scripts, tutorials, and videos. <sup><b>[<b><font color="LightSteelBlue">NEW</font></b></b> 2016-10-14<b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://wis45idjhhbgemez.onion/">Calibre Books</a> - A calibre library with 1113 books. Requires Javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bookssutzsay4so3.onion/">MOBI Library</a> - 10.206 books in English. All in MOBI format. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://castorz2lijmrc5f.onion/">Biblioteca Castor</a> - Mostly in Spanish. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://52wdeibt3ivmcapq.onion/">Liberated Books</a> - contains a few papers and books which are not easy to get (e.g. papers behind paywalls, ebooks etc </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://clockwise3rldkgu.onion/">Clockwise Libraries</a> - A collection of art and science books.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://bible4u2kjgjvbxs.onion/">Bible4u</a> - Free Bible translations in multiple languages available to read online and to free download.</li></ul>
+<h2><span class="mw-headline" id="Freenet_Links_2">Freenet Links</span></h2>
+<h3><span class="mw-headline" id="LEA_Tactics">LEA Tactics</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://127.0.0.1:8888/USK@sDg8r7Cc9lqtPBsPgn2gRGi9rEstwrVDcutExyqVE3A,tz-fi3YwH~CVXjY8VyxgU~a4e2Loc0q6uS52WCaYGhM,AQACAAE/Cops/1/">Cops Tactics</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Freenet&amp;action=edit&amp;redlink=1" class="new" title="Template:Freenet (page does not exist)">Template:Freenet</a> - Leaked Projects, tactics and programs of law enforcement, Uploaded on 2016-05-03.</li></ul>
+<p><br>
+</p>
+<h4><span class="mw-headline" id="I2P">I2P</span></h4>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://diftracker.i2p/">diftracker.i2p</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:I2P&amp;action=edit&amp;redlink=1" class="new" title="Template:I2P (page does not exist)">Template:I2P</a> - A large body of French content. <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ptt.i2p/">ptt.i2p</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:I2P&amp;action=edit&amp;redlink=1" class="new" title="Template:I2P (page does not exist)">Template:I2P</a> - A Russian Opentracker <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Russian </span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://magnets.i2p/">magnets.i2p</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:I2P&amp;action=edit&amp;redlink=1" class="new" title="Template:I2P (page does not exist)">Template:I2P</a> - A Russian Opentracker <sup><b>[</b> <span style="color: Gray"><b>Language:</b> Russian </span> <b>]</b></sup></li></ul>
+<h2><span class="mw-headline" id="HTML_Index_Pages">HTML Index Pages</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://zupyv3e5spdok6nw.onion/">- Datenhangar Repo</a> - ebooks, music, scripts, tutorials, and videos. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://2t4a3yeutq6ohbvs.onion/index.php/login">ownCloud</a> - A personal* <a rel="nofollow" target="_blank" class="external text" href="https://owncloud.org/">ownCloud</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup> site. Requires javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://6nefp5kt5yibi25s.onion/">ArchLinux Repo</a> - Index of Archlinux, BlackArch, and Kali. </li></ul>
+<h2><span class="mw-headline" id="SFTP_-_SSH_File_Transfer_Protocol">SFTP - SSH File Transfer Protocol</span></h2>
+<p><i>These SFTP clients work with Tor:* <a rel="nofollow" target="_blank" class="external text" href="http://winscp.net/">WinScp</a>,* <a rel="nofollow" target="_blank" class="external text" href="https://filezilla-project.org/">FileZilla</a>. </i>
+</p>
+<ol><li>Set proxy to <b>SOCKS5</b>, </li>
+<li>Set host to <b>127.0.0.1</b>, </li>
+<li>Set port t0 9150 (Windows,Mac) or <b>9050</b> (Linux). </li>
+<li>Encrypt your sensitive files using* <a rel="nofollow" target="_blank" class="external text" href="http://www.gnupg.org/">GnuPG</a> before uploading them to any server.</li></ol>
+<h3><span class="mw-headline" id="FTP_Servers">FTP Servers</span></h3>
+<ul><li> kissonmbczqxgebw.onion:10001 - KISS.onion - SFTP file exchange service (username "sftp.anon", password "anon")</li>
+<li> wtutoxfznz45gf6c.onion:21 - Anonymous Web FTP Client</li></ul>
+<h2><span class="mw-headline" id="Usenet">Usenet</span></h2>
+<p><i>Empty, help contribute by adding links</i>
+</p>
+<h2><span class="mw-headline" id="Other_3">Other</span></h2>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://ydtjl5cn3smvsork.onion/">wEye [Files</a>] - Anonymous video sharing.</li></ul>
+<h2><span class="mw-headline" id="Non_English">Non English</span></h2>
+<h3><span class="mw-headline" id="Arabic_.2F_.D8.A7.D9.84.D8.B9.D9.8E.D8.B1.D9.8E.D8.A8.D9.90.D9.8A.D8.A9.E2.80.8E">Arabic / العَرَبِية‎</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://bpo4ybbs2apk4sk4.onion/ar">Security in a box</a> - كيفية استخدام مواقع التواصل الإجتماعي والهواتف الذكية بشكل أمن.  </li></ul>
+<h3><span class="mw-headline" id="Belarussian_.2F_.D0.91.D0.B5.D0.BB.D0.BE.D1.80.D1.83.D1.81.D1.81.D0.BA.D0.B8.D0.B9">Belarussian / Белорусский</span></h3>
+<ul><li> <i>None currently. Help contribute to this wiki by adding links!</i></li></ul>
+<h3><span class="mw-headline" id="Chinese_.2F_.E5.AE.98.E8.A9.B1">Chinese / 官話</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://almvdkg6vrpmkvk4.onion/">中文论坛</a> - 中文论坛 </li></ul>
+<h3><span class="mw-headline" id="Finnish_.2F_Suomi">Finnish / Suomi</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/chatti/">Suomi chatti</a> - Reaaliaikainen chatti ilman javascriptia.  </li></ul>
+<h3><span class="mw-headline" id="French_.2F_Fran.C3.A7ais">French / Français</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://trollodrome2.torpress2sarn7xw.onion/">Trollodrôme</a> - Forum non modéré  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://saufca42reinzasa.onion/">Sauf.ca onion</a> - Sauf.ca onion version  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fdwocbsnity6vzwd.onion/">French Deep Web</a> - an administered and moderate French board  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://darkst7px5ijhz42.onion/">Dark Shops</a>' - Forum de confiance tenu par totoche.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ffzone4ry6efpqj3.onion/">French Freedom Zone - FFZ</a> - Communauté élitiste centrale du deepweb francophone. Hacking, Malwares, Carding, Développement et Esoterisme.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ffzone4ry6efpqj3.onion/o.php">Grande Enigme du Deepweb - GED</a> - Sa résolution vous ouvrira les portes d'un grand savoir ésotérique  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://alliancepycqnioz.onion/">Le réseau de l'Alliance Louxienne - AL</a> - L'Alliance Louxienne est un réseau secret composé de toutes les pointures du deepweb  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://cerberussssc7cat.onion/">Cerberus</a> - Plus grande bibliothèque de malwares/virus du deepweb  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://salehistoire.torpress2sarn7xw.onion/">Sale Histoire</a> - Les histoires (vraies) les plus sales du web.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://onnjtpw627li4hg5.onion/">la Tourmentine</a> - la Tourmentine blog <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup>  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://yabarowa.torpress2sarn7xw.onion/">yabarowa</a> - Drogue de Viol et technique d'abus sexuel discret et sans risque <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup> </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://djypjjvw532evfw3.onion/">Weed&amp;Co</a>   -   Weed / Cigarettes ... Prix Bas / Low Price ... weed cigarette / EUROPE&nbsp;!!!</li></ul>
+<h3><span class="mw-headline" id="German_.2F_Deutsch">German / Deutsch</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://konkretzdxpqygow.onion/">konkret</a> - Eine monatlich erscheinende Zeitschrift für Politik und Kultur (vertritt links angesiedelte Positionen); Archiv  </li>
+<li> tot:</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qj3m7wxqk4pfqwob.onion/">MadIRC</a> - Deutscher IRC-Channel.  </li></ul>
+<h3><span class="mw-headline" id="Greek_.2F_.CE.B5.CE.BB.CE.BB.CE.B7.CE.BD.CE.B9.CE.BA.CE.AC">Greek / ελληνικά</span></h3>
+<ul><li> <i>None currently. Help contribute to this wiki by adding links!</i></li></ul>
+<h3><span class="mw-headline" id="Italian_.2F_Italiano">Italian / Italiano</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://2qrdpvonwwqnic7j.onion/">IDC</a> - Italian DarkNet Community - <a rel="nofollow" target="_blank" class="external text" href="http://irc.lc/cryto/idc/crytoweb@@@%E2%80%8E">Canale IRC</a>  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hackpdatf4kryh54.onion/">#OpObscurity</a> - We are Anonymous, We are Legion, Expect Us!  </li></ul>
+<h3><span class="mw-headline" id="Japanese_.2F_.E6.97.A5.E6.9C.AC.E8.AA.9E">Japanese / 日本語</span></h3>
+<ul><li> <i>None currently. Help contribute to this wiki by adding links!</i></li></ul>
+<h3><span class="mw-headline" id="Korean_.2F_.ED.95.9C.EA.B5.AD.EC.96.B4">Korean / 한국어</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external autonumber" href="http://khdwk3olxr3kip2p.onion/">[1]</a> - Korean Hidden Wiki</li></ul>
+<h3><span class="mw-headline" id="Persian_.2F_.D9.81.D8.A7.D8.B1.D8.B3.DB.8C">Persian / فارسی</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://wuez3xlf262whtl6.onion/">Jensiat</a> - An iranian website against the censorship and the gender oppression. <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2017-03-28</span> <b>]</b></sup></li></ul>
+<h3><span class="mw-headline" id="Polish_.2F_Polski">Polish / Polski</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://mj43hpsh6poc72yr.onion/">MorderPol</a> - polskie forum dla morderców i psychopatów.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qd73mvvc7v7zewwl.onion/">Cebulka</a> Najstarsze działające polskie forum w sieci Tor. Brak cenzury i moderacji.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://rzb5nlpvy5oqnket.onion/">Fundacja Panoptykon</a>, <a rel="nofollow" target="_blank" class="external text" href="https://panoptykon.org/">clearnet</a>
+ - Strona fundacji przeciwstawiającej się coraz powszechniejszej 
+inwigilacji oraz tendencjom nasilania nadzoru i kontroli nad 
+społeczeństwem.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://54ogum7gwxhtgiya.onion/">Technodrome</a> Blog Kranga  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://54ogum7gwxhtgiya.onion/">Dimension X - Krang Hidden Base</a> -  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://whitewolfy.torpress2sarn7xw.onion/">Drugs, guns &amp; bitches</a> Towary z pierwszej ręki. Najlepsze oferty w polskiej sieci Tor.   </li></ul>
+<h3><span class="mw-headline" id="Portuguese_.2F_Portugu.C3.AAs">Portuguese / Português</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://royalbrikcrpjve2.onion/">Royal Brasil</a> - Fórum brasileiro  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://2izlbbg42mgtdh2w.onion/">Tudo Sobre Magia e Ocultismo</a> Site sobre Magia,Ocultismo,Esoterismo e Mitologia  </li></ul>
+<h3><span class="mw-headline" id="Russian_.2F_.D0.A0.D1.83.D1.81.D1.81.D0.BA.D0.B8.D0.B9">Russian / Русский</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://uuouptgwn564m654.onion/">Вики 404</a> - энциклопедия 404  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://onelonhoourmypmh.onion/">Onelon</a> - Социальная сеть для даркнет людей, регистрация по PGP ключу  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://xuytcbrwbxbxwnbu.onion/">RuTor</a> - Russian Best onion forum  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://sblib3fk2gryb46d.onion/">Зеркало библиотеки Траума</a> - 60GB русских и английских книг. Обложки, поиск и возможность скачивать в форматах FB2, HTML и TXT  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://flibustahezeous3.onion/">Флибуста</a> - Библиотека.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dmzwvie2gmtwszof.onion/">TNC</a> - Torrents-NN Крупнейший нижегородский торрент трекер.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://steplaf3p2u4e7pg.onion/">Stepla</a> - Бесплатная анонимная психологическая помощь. Форум с профессиональными психотерапевтами.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://eosdawn6knv2mno3.onion/">EOS</a> - Яндекс.Маркет российского Даркнета  </li></ul>
+<h3><span class="mw-headline" id="Spanish_.2F_Espa.C3.B1ol">Spanish / Español</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://drystagepmi5msdm.onion/">FaseSeca</a> - Foro de seguridad informatica entre otras cosas.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://binario5yvaed5ie.onion/">Elbinario</a>, <a rel="nofollow" target="_blank" class="external text" href="http://elbinario.net/">Clearnet</a> - Publicación comunitaria autogestionada. Cultura libre.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://papyrefb2tdk6czd.onion/index.php?i=A">La extinta biblioteca de PAPYREFB2</a> - Libros - biblioteca.  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://anon3vukb6poutg6.onion/">Cerapadus</a> - Proveedor de servicios seguridad / IRC / ZeroBin  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://dkb5f63obsb6wmzcgilebjvmgvw4wmcgzbkczu3sntgckmtzweza.b32.i2p/">I2P b32</a>, <a rel="nofollow" target="_blank" class="external text" href="http://lawiki2p.i2p.xyz/">i2p.xyz</a>, <a rel="nofollow" target="_blank" class="external text" href="http://127.0.0.1:8888/USK@2jRNDcx1Hn~eurSPOd9Ai4xIv5bAsaWKxlcNZPTpbJ8,sAY-hDhxDpb8VkXOcPgH~Dj~-Oqcf2uRkQ67Lr2io-U,AQACAAE/lawiki.i2p/6/">Freenet</a> <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Freenet&amp;action=edit&amp;redlink=1" class="new" title="Template:Freenet (page does not exist)">Template:Freenet</a>, <a rel="nofollow" target="_blank" class="external text" href="http://freenovfka2ploir.onion/USK@2jRNDcx1Hn~eurSPOd9Ai4xIv5bAsaWKxlcNZPTpbJ8,sAY-hDhxDpb8VkXOcPgH~Dj~-Oqcf2uRkQ67Lr2io-U,AQACAAE/lawiki.i2p/6/">Tor2Freenet</a> - Lawiki2p.i2p en Tor.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://efxg3mscme5hy7je.onion/">Respuestas Ocultas</a> - Respuestas Ocultas Español  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://castorz2lijmrc5f.onion/">Biblioteca Castor</a> - Biblioteca Castor  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://vxx2tfzprjm56eka.onion/">CebollaBoard</a> - TextBoard en castellano  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://njdl3afan66gdlr5.onion/">TortillaChat</a> - Chat en español  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://rzilaygoiqfvmmcl.onion/">HispaTorCHan</a> - Chan en Catellano  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://7pta37j2kgxquq6w.onion/">LiberTor</a> - Blog y foro en español  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://iaypjcyn2twign5q.onion/">Zona Zer0</a> - Foro sobre haching y seguiridad informática  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://53jrjfue7yioaxho.onion/">Titulos Universitarios</a> - Venta de titulos universitarios.  </li></ul>
+<h3><span class="mw-headline" id="Swedish_.2F_Svenska">Swedish / Svenska</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://wd43uqrbjwe6hpre.onion/">KognitionsKyrkan</a>, <a rel="nofollow" target="_blank" class="external text" href="https://www.kognitionskyrkan.nu/">clearnet</a> - Spiritual stuff.   </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://fcnwebggxt2d3h64.onion/">Moral.Nu</a>, <a rel="nofollow" target="_blank" class="external text" href="https://www.moral.nu/">clearnet</a> - Vad  r moral?  </li></ul>
+<h3><span class="mw-headline" id="Turkish_.2F_T.C3.BCrk.C3.A7e">Turkish / Türkçe</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://tufprj3pslo56ilh.onion/">Turkish Uncensored Forum </a> - Uncensored Turkish Forum  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://thhazdmx2kymozql.onion/">Turkish Hidden Hosting</a> - Turkish Hosting Service  </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://turkiyex6fkt46ra.onion/">AnonTurk</a> - AnonTurk | Anonym Turk Society in Deep Web!</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://y2jqwzkas3dvmqgxowlhy6ldnknrt74cqflcqwogev5kix65bco6leqd.onion/">Turkish Darkweb 2.0</a> - Turkish darkforum</li></ul>
+<h3><span class="mw-headline" id="Ukrainian_.2F_.D0.A3.D0.BA.D1.80.D0.B0.D1.97.D0.BD.D1.81.D1.8C.D0.BA.D0.B0">Ukrainian / Українська</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://anarchy3fa3bcada.onion/">Anarch</a> - Ukraine Anonymous community</li></ul>
+<h2><span class="mw-headline" id="Chat">Chat</span></h2>
+<h3><span class="mw-headline" id="WebChat_without_JavaScript">WebChat without JavaScript</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/chat/">Ableonion Chat</a> - Realtime chat. No javascript. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://tt3j2x4k5ycaa5zt.onion/chat.php">Daniels Chat (Le Chat PHP)</a> - Completely without JS! Pure Torbrowser chat without any add-ons. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://canxzwmfihdnn7bz.onion/rchat/">Random Chat</a> - One-to-one random chat. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://hb2z3skucfnjdrj7.onion/chat.php">Tabooless (Le Chat PHP)</a> - Uncensored chat without Censorship. But no unsafe links allowed. </li></ul>
+<h3><span class="mw-headline" id="WebChat_with_JavaScript">WebChat with JavaScript</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://doggyfipznipbaia.onion/">Cryptodog</a> - Encrypted, anonymous group chat (requires open source JavaScript) </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://chattorci7bcgygp.onion/">ChatTor</a> - Requires JavaScript with websockets enabled. <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2017-09-03</span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://qj3m7wxqk4pfqwob.onion/">MadIRC webchat</a> - Powered by KiwiIRC</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://chat.vola7ileiax4ueow.onion/">Volatile webchat</a> - for the Volatile IRC network </li></ul>
+<h3><span class="mw-headline" id="IRC_2"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=IRC" title="IRC" class="mw-redirect">IRC</a></span></h3>
+<p>Use e.g. <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=ChatZilla&amp;action=edit&amp;redlink=1" class="new" title="ChatZilla (page does not exist)">ChatZilla</a> add-on for the <abbr title="Internet Relay Chat">IRC</abbr> protocol <span style="background-color:#ff0">(the Tor Project does not suggest installing browser addons unless you understand the risks)</span>, or a standalone client such as <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=HexChat&amp;action=edit&amp;redlink=1" class="new" title="HexChat (page does not exist)">HexChat</a>. <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Tails" title="Tails">Tails</a> comes with <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Pidgin" title="Pidgin">Pidgin</a>, which will work for IRC as well.
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://cfyfz6afpgfeirst.onion:6667/">Agora Anonymous</a> - Agorist IRC server</li></ul>
+<dl><dd> plaintext ports: 6667</dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://chatjnv7sshcuz6a.onion:6667/">ANYChat</a></li></ul>
+<dl><dd> plaintext ports: 6667; ssl: <a rel="nofollow" target="_blank" class="external text" href="ircs://chatjnv7sshcuz6a.onion:6697/">6697</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://anon3vukb6poutg6.onion/">Cerapadus</a> - Freedom of speech server / Hacktivism - No CP, rats or other abuse allowed
+<ul><li>Server SSL (Preferred): <a rel="nofollow" target="_blank" class="external text" href="irc://anon3vukb6poutg6.onion:1936/">Port 1936</a></li>
+<li>Server plain text: <a rel="nofollow" target="_blank" class="external text" href="irc://anon3vukb6poutg6.onion:1937/">Port 1937</a></li></ul></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://3qnktllooc52l3az.onion:6667/">CryptoNet</a> - A censorship free IRC server that values free speech<br>plaintext ports: 6667; SSL ports: <a rel="nofollow" target="_blank" class="external text" href="ircs://3qnktllooc52l3az.onion:6697/">6697</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://deepirc23ukiben3.onion:6667/">DeepIRC</a> <sup><b>[</b> <span style="color: Gray"><b>Language:</b> French </span> <b>]</b></sup></li></ul>
+<dl><dd> plaintext ports: 6667</dd></dl>
+<ul><li> Federation: <a rel="nofollow" target="_blank" class="external text" href="http://onionirczesfffux.onion/">OnionNet</a> - IRC network comprised of:
+<ul><li> onionirczesfffux.onion:6667 <a rel="nofollow" target="_blank" class="external text" href="irc://onionirczesfffux.onion:6667/">Juppi IRC</a>  - Juppi's IRC server.</li>
+<li> <s>onionirc2udqrqpo.onion:6667 <a rel="nofollow" target="_blank" class="external text" href="irc://onionirc2udqrqpo.onion:6667/">YankeeGuy IRC</a> - YankeeGuy's IRC server.</s></li></ul></li>
+<li> FreedomIRC - <a rel="nofollow" target="_blank" class="external text" href="gopher://jewjewkeei4o4bvn.onion/">gopher</a> or <a rel="nofollow" target="_blank" class="external text" href="http://jewjewkeei4o4bvn.onion/">http</a>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://jewjewkeei4o4bvn.onion:6667/">irc.freedom.net</a> (<a rel="nofollow" target="_blank" class="external text" href="irc://3pedopedqayeyvhp.onion:6667/">alt link</a>)<br>plaintext ports: 6667</li></ul></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="ircs://nakufgztylanf4mw.onion:9999/">hackint</a> - <a rel="nofollow" target="_blank" class="external text" href="http://hackint.eu/">hackint</a> is a communication network for the hacker community.</li></ul>
+<dl><dd> running on lechuck.hackint.org; ssl ports: 9999; no plaintext ports</dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="ircs://jdobmyzmx4bh7n25.onion:6697/">HeavyCrypto</a> - HeavyCrypto IRC</li></ul>
+<dl><dd> ssl ports: 6697; no plaintext ports</dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://ogn5vbujhrvbihko.onion:6667/">IRC2P</a> - <a rel="nofollow" target="_blank" class="external text" href="http://ogn5vbujhrvbihko.onion/">dg's onion server</a> for i2p</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://vgg6whpouebbcx7w.onion:6667">KeratNet</a> - <a rel="nofollow" target="_blank" class="external text" href="http://kerat.net/">Kerat</a></li></ul>
+<dl><dd> plaintext ports: 6667; ssl: <a rel="nofollow" target="_blank" class="external text" href="irc://vgg6whpouebbcx7w.onion:6697">6697</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://e4bqnvfdasnx4plk.onion:6667/">KillYourIRC</a> - onion for irc.killyourtv.i2p</li></ul>
+<dl><dd> plaintext ports: 6667; ssl: <a rel="nofollow" target="_blank" class="external text" href="irc://e4bqnvfdasnx4plk.onion:9999">9999</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://qj3m7wxqk4pfqwob.onion:6667/">MadIRC</a> - German IRC network</li></ul>
+<dl><dd> plaintext ports: 6667, ssl: <a rel="nofollow" target="_blank" class="external text" href="ircs://qj3m7wxqk4pfqwob.onion:6697">6697</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://nazgul3zxuzvrgg6.onion/">Nazgul</a> - free for all IRC network <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2016-09-10</span> <b>]</b></sup></li></ul>
+<dl><dd> plaintext ports: <a rel="nofollow" target="_blank" class="external text" href="irc://nazgul3zxuzvrgg6.onion:6667/">6667</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://occuircrg5setoc3.onion:6667/">OccuIRC</a> - Occulus Omega IRC network <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2017-04-15</span> <b>]</b></sup></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://onionirchubx5363.onion:6667">OnionIRC</a> - IRC network for <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionIRC&amp;action=edit&amp;redlink=1" class="new" title="OnionIRC (page does not exist)">OnionIRC</a>.
+ In the media's terms, a "school for hacktivists". Caution 
+&lt;ref&gt;This network has had unstable administration since day one. 
+Read the <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionIRC&amp;action=edit&amp;redlink=1" class="new" title="OnionIRC (page does not exist)">OnionIRC</a> article for details.&lt;/ref&gt;</li></ul>
+<dl><dd> plaintext ports: 6667; ssl: <a rel="nofollow" target="_blank" class="external text" href="ircs://onionirchubx5363.onion:6697">6697</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://e2ymwjy6mzy4hx3t.onion:6669/">OpenSource</a>, <a rel="nofollow" target="_blank" class="external text" href="http://g7pz322wcy6jnn4r.onion/opensource/ovdb/ac/viewtopic.php?id=284">info</a> - Drug chat</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://ronsor37xl7tqn7p.onion:6667/">public.ronsor-router.lan</a> - Freelinking server owned by Ronsor</li></ul>
+<dl><dd> plaintext ports: 6667; SSL ports: <a rel="nofollow" target="_blank" class="external text" href="ircs://ronsor37xl7tqn7p.onion:6697/">6697</a></dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://z7uo4qztub5rn4jl.onion:6667/">Smokey's Grill</a> - General chat IRC. Doesn't allow plotting the abuse of other people.</li></ul>
+<dl><dd> plaintext ports: 6667</dd></dl>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://vola7ileiax4ueow.onion/">Volatile</a> - we back <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Template:Up&amp;action=edit&amp;redlink=1" class="new" title="Template:Up (page does not exist)">Template:Up</a>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://lolikaastbgo5dtk.onion:6667">irc.krustykrab.restaurant</a> - owned by wowaname<br>plaintext ports: 6667, <a rel="nofollow" target="_blank" class="external text" href="irc://lolikaastbgo5dtk.onion:7777">7777</a>; ssl: <a rel="nofollow" target="_blank" class="external text" href="ircs://lolikaastbgo5dtk.onion:6697">6697</a>, <a rel="nofollow" target="_blank" class="external text" href="ircs://lolikaastbgo5dtk.onion:9999">9999</a>.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://kitsune6uv4dtdve.onion:6667">kitsune6uv4dtdve.onion</a> - owned by wowaname<br>plaintext ports: 6667, <a rel="nofollow" target="_blank" class="external text" href="irc://kitsune6uv4dtdve.onion:7777">7777</a>; ssl: <a rel="nofollow" target="_blank" class="external text" href="ircs://kitsune6uv4dtdve.onion:6697">6697</a>, <a rel="nofollow" target="_blank" class="external text" href="ircs://kitsune6uv4dtdve.onion:9999">9999</a>.</li></ul></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://infantilefb6ovh4.onion:6667">Infantile</a>, a friendly new IRC server.</li></ul>
+<h3><span class="mw-headline" id="URC">URC</span></h3>
+<p><a rel="nofollow" target="_blank" class="external text" href="https://opalrwf4mzmlfmag.onion/files/anonet/urc.htm">URC</a> is a decentralized chat protocol aimed as a replacement for IRC. Join #overchan for the main channel.
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://allyour4nert7pkh.onion:6667/">urc.irc.aybirc.hub.tld</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://ntwrkhhtqv73vwd4.onion:6667/">josephswilliams.com</a></li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="irc://mhaztct565q27kor.onion:6667/">ngircd.irc.sfor.ano</a> - IRC server which relays to URC
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://lolikaastbgo5dtk.onion:6666/">lolikaastbgo5dtk.onion</a> - port 6666 </li></ul></li></ul>
+<h3><span class="mw-headline" id="ZNC">ZNC</span></h3>
+<p>IRC bouncers over Tor. More info about ZNC can be found on their <a rel="nofollow" target="_blank" class="external text" href="http://wiki.znc.in/">wiki</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>.
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="https://lolikaastbgo5dtk.onion:31337/">the loli advocacy ZNC</a> - hidden service ZNC. Requires HTTPS/SSL</li></ul>
+<h3><span class="mw-headline" id="BitlBee">BitlBee</span></h3>
+<p>More information can be found at BitlBee's <a rel="nofollow" target="_blank" class="external text" href="https://www.bitlbee.org/">official website</a> <sup><b>[</b> <span style="color: orange"><b>Clearnet link!</b> </span> <b>]</b></sup>.
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="irc://bitlbeemlvy7n65d.onion:6667">bitlbeemlvy7n65d.onion</a> - public access BitlBee server (use OTR whenever possible!)</li></ul>
+<h3><span class="mw-headline" id="XMPP_.28formerly_Jabber.29">XMPP (formerly Jabber)</span></h3>
+<ul><li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:xmppeecb5fdchdeh.onion:5222">xmpp:xmppeecb5fdchdeh.onion:5222</a> - Public XMPP server. Ran by <a rel="nofollow" target="_blank" class="external text" href="http://sigaintevyh2rzvw.onion/">SIGAINT</a></li>
+<li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:tortureregex47xf.onion:5222">xmpp:tortureregex47xf.onion:5222</a>
+ - Public XMPP with MUC (multi user chat) enabled. No Child Porn and 
+racism here, any breach will result in a ban. Maintained by <a rel="nofollow" target="_blank" class="external text" href="http://2kcreatydoneqybu.onion/">Creative Hack</a></li>
+<li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:okj7xc6j2szr2y75.onion:5222">xmpp:okj7xc6j2szr2y75.onion:5222</a> - <a rel="nofollow" target="_blank" class="external free" href="xmpp:jabber.ccc.de:5222">xmpp:jabber.ccc.de:5222</a> as a hidden service</li>
+<li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:3vnjj7h6c6vw2yh5.onion:5222">xmpp:3vnjj7h6c6vw2yh5.onion:5222</a>
+ - instant messager for Liberty's Hackers - chat room for Liberty's 
+Hackers and french users - chat room for international sharing - <b>No CP and no Racism please</b>.</li>
+<li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:infantilefb6ovh4.onion:5222">xmpp:infantilefb6ovh4.onion:5222</a> - <a rel="nofollow" target="_blank" class="external text" href="http://infantilefb6ovh4.onion/">Infantile XMPP Server</a>, in-band registration with captcha supported, <b>no rules</b>, hosted by <a rel="nofollow" target="_blank" class="external text" href="http://kaizushigdv5mrnz.onion/">Kaizushi</a></li>
+<li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:k5rooysqhscw6cuu.onion:5222">xmpp:k5rooysqhscw6cuu.onion:5222</a> - jabber.nerds.luz open XMPP server <a rel="nofollow" target="_blank" class="external text" href="http://k5rooysqhscw6cuu.onion/">Onion</a> / <a rel="nofollow" target="_blank" class="external text" href="http://jabber.nerds.lu/">Clearnet</a></li></ul>
+<p><a rel="nofollow" target="_blank" class="external free" href="http://gxamjbnu7uknahng.onion/wiki/index.php?title=Chat_Centric_Services&amp;action=edit&amp;section=7">http://gxamjbnu7uknahng.onion/wiki/index.php?title=Chat_Centric_Services&amp;action=edit&amp;section=7</a>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external free" href="xmpp:vola7ileiax4ueow.onion:5222">xmpp:vola7ileiax4ueow.onion:5222</a> - Volatile XMPP server on Tor and I2P. MUC enabled and federation-capable. Public registration enabled.</li></ul>
+<h3><span class="mw-headline" id="SILC">SILC</span></h3>
+<ul><li> fxb4654tpptq255w.onion:706 - SILCroad, public server. [<a rel="nofollow" target="_blank" class="external text" href="http://ianxz6zefk72ulzz.onion/index.php/forums/thread/385/35">discuss/support</a>]</li>
+<li> kissonmbczqxgebw.onion:10000 - KISS.onion - Keep It Simple and Safe
+ - ditch the web browser, use SILC to communicate securely (using <a rel="nofollow" target="_blank" class="external text" href="http://pidgin.im/">Pidgin</a> with <a rel="nofollow" target="_blank" class="external text" href="https://otr.cypherpunks.ca/">OTR</a>)</li></ul>
+<h3><span class="mw-headline" id="OnionCat_Addresses">OnionCat Addresses</span></h3>
+<p>List of only the Tor-backed fd87:d87e:eb43::/48 address space, sorted by onion. There are instructions for using <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionCat_Instructions&amp;action=edit&amp;redlink=1" class="new" title="OnionCat Instructions (page does not exist)">OnionCat</a>, <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionCat_Gnutella&amp;action=edit&amp;redlink=1" class="new" title="OnionCat Gnutella (page does not exist)">Gnutella</a>, <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionCat_BitTorrent&amp;action=edit&amp;redlink=1" class="new" title="OnionCat BitTorrent (page does not exist)">BitTorrent Client</a>, and <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=OnionCat_BitTorrent_Tracker&amp;action=edit&amp;redlink=1" class="new" title="OnionCat BitTorrent Tracker (page does not exist)">BitTorrent Tracker</a>.
+</p>
+<ul><li> 62bwjldt7fq2zgqa.onion:8060
+<ul><li> fd87:d87e:eb43:f683:64ac:73f9:61ac:9a00 - ICMPv6 Echo Reply</li></ul></li>
+<li> a5ccbdkubbr2jlcp.onion:8060 - mail.onion.aio
+<ul><li> fd87:d87e:eb43:0744:208d:5408:63a4:ac4f - ICMPv6 Echo Reply</li></ul></li>
+<li> ce2irrcozpei33e6.onion:8060 - bank-killah [down 2014-06-05]
+<ul><li> fd87:d87e:eb43:1134:88c4:4ecb:c88d:ec9e - ICMPv6 Echo Reply [down 2014-06-05]</li>
+<li> [fd87:d87e:eb43:1134:88c4:4ecb:c88d:ec9e]:8333 - Bitcoin Seed Node [down 2014-06-05]</li></ul></li>
+<li> taswebqlseworuhc.onion:8060 - <a rel="nofollow" target="_blank" class="external text" href="http://taswebqlseworuhc.onion/">TasWeb</a> - DOWN 2011-09-08
+<ul><li> fd87:d87e:eb43:9825:6206:0b91:2ce8:d0e2 - ICMPv6 Echo Reply</li>
+<li> http://[fd87:d87e:eb43:9825:6206:0b91:2ce8:d0e2]/</li>
+<li> gopher://[fd87:d87e:eb43:9825:6206:0b91:2ce8:d0e2]:70/</li></ul></li>
+<li> vso3r6cmjoomhhgg.onion:8060 - echelon
+<ul><li> fd87:d87e:eb43:ac9d:b8f8:4c4b:9cc3:9cc6 - ICMPv6 Echo Reply</li></ul></li></ul>
+<h2><span class="mw-headline" id="Bitcoin_Seeding"><a rel="nofollow" target="_blank" class="external text" href="http://www.bitcoin.org/">Bitcoin</a> Seeding</span></h2>
+<p><a rel="nofollow" target="_blank" class="external text" href="https://en.bitcoin.it/wiki/Fallback_Nodes">Instructions</a>
+</p>
+<table class="wikitable sortable jquery-tablesorter">
+<thead><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"> Hostname </th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"> Owner </th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"> Status </th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"> Last Seen (GMT) </th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"> Accepts IP transactions
+</th></tr></thead><tbody>
+<tr>
+<td> tsyvzsqwa2kkf6b2.onion </td>
+<td> TorDude </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> i2r5tbaizb75h26f.onion </td>
+<td> TorDude </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> bk5ejfe56xakvtkk.onion </td>
+<td> dserrano5 </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> igpdszqrbqjhak5z.onion </td>
+<td> anonymous </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td>&nbsp;?
+</td></tr>
+<tr>
+<td> btcnet3utgzyz2bf.onion </td>
+<td> anonymous </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> evolynhit7shzeet.onion </td>
+<td> Evolyn </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> bitcoin2u5jnjzzz.onion </td>
+<td> anonymous </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> vso3r6cmjoomhhgg.onion </td>
+<td> echelon </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> pqosrh6wfaucet32.onion </td>
+<td> bitcoin street </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> zy3kdqowmrb7xm7h.onion </td>
+<td> Tril </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> e3tn727fywnioxrc.onion </td>
+<td> Zedd </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr>
+<tr>
+<td> kjy2eqzk4zwi5zd3.onion </td>
+<td> sipa </td>
+<td> Up </td>
+<td> 2014-06-19 </td>
+<td> No
+</td></tr></tbody><tfoot></tfoot></table>
+<h1><span class="mw-headline" id="Dead_Hidden_Services">Dead Hidden Services</span></h1>
+<p><b>Do not simply remove services that appear to be offline from the above list!</b> Services can go down temporarily, so we keep track of when they do and maintain a list of dead hidden services.
+<br><b>Please notify us of any scams or dead pages so they can be taken care of.</b>
+</p>
+<ul><li> In addition to an onion simply being gone (Tor cannot resolve 
+the onion), sites that display 404 (and use a known onion/URL based 
+hosting service) are the only other thing that is considered truly DOWN.
+ Presumably the account is gone.</li></ul>
+<ol><li> If a service has been down for a while, tag it with ' - DOWN YYYY-DD-MM' (your guess as to when it went down).</li>
+<li> If a tagged service on the above list of live hidden services has come back up, remove the DOWN tag.</li>
+<li> If a tagged service is still down after a month, please move it (along with the DOWN tag) to the list of dead hidden services.</li></ol>
+<ul><li> The general idea of the remaining four service states below is 
+that, if the Hidden Service Descriptor is available, and something is 
+responding behind it... the service is considered up, and we track that 
+fact on the Main Page. If any of these subsequently go offline, append 
+the DOWN tag and handle as above.</li></ul>
+<ol><li> Hello world's / statements, minimal sites, services with low user activity, etc (while boring)... are listed as usual.</li>
+<li> Broken services are those that display 404 (and do not use a known 
+hosting service), PHP or other errors (or they fail silently)... any of 
+which prevent the use of the service as intended. They also include 
+blank pages, empty dirs and neglected status notes. Presumably the 
+operator is in limbo. Broken services are tagged with ' (reason) - 
+Broken YYYY-DD-MM' (your guess as to when it went broken)</li>
+<li> Services that automatically redirect to another service (such as by
+ HTTP protocol or script), have their redirection destinations noted in 
+their descriptions. These are tagged with ' - Redir YYYY-DD-MM' (your 
+guess as to when it went redir)</li>
+<li> Sites that are formally closed via announcement are tagged with ' - Closed YYYY-DD-MM' (your guess as to when it went closed)</li></ol>
+<p><br>
+</p>
+<hr>
+<p><br>
+</p><p>/* Link lists */   5 sites <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> Jan 2016</span> <b>]</b></sup>&nbsp;:
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://jh32yv5zgayyyts3.onion/">OnionList</a> – Non‐wiki mirror of The Hidden Wiki. Doesn’t seem to be actively maintained.</li></ul>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://pdizimmrq5mwjkun.onion/">TorX</a> – TOR directory of hidden Services &amp; Sites.</li></ul>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://vault43z5vxy3vn3.onion/">Vault43</a>
+ – Collection of resources and data gathered from various TOR sites that
+ allows users to view markets and their features, general ratings, and a
+ large amount of related darknet material.</li></ul>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://vqu4mm5lcjmlqohh.onion/">Shadow Web</a> – Gateway to the Shadow web.</li></ul>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://linklistpugaiwpi.onion/">linklist</a> – A long link list that hides inaccessible hidden services automatically. Allows users to add services. Users can</li></ul>
+<hr>
+<p>wikis: <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2016</span> <b>]</b></sup>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://2r2tz6wzqn7gaji7.onion/">KavkazCenter</a> -- A Middle East news provider, multiple languages. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://frwikif6dh4jvm6a.onion/">French Hidden Wiki v2</a> -- A wiki in French, français.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://mfgslmsj4ouxfp57.onion/">DarkNetBloggers</a> - Anonymous Blog where anyone can publish and discuss any topic.</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://eroseroymodzincy.onion/wp/">Eros Eroy Modzincy</a> - Just a Personal Onion WordPress Site</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://zilionku2adniig6.onion/">Zilion 2.0</a> - Blog de reflexão de um brasileiro - NOVO LINK</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ocun3jhbmhvqwggn.onion/">Teczkohen</a> - Polish imageboard</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://yoaqaryln7ncuvmz.onion/">Hotel Tor</a> Previously known as TorBox</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ocun3jhbmhvqwggn.onion/wiki">Polska Ukryta Wiki</a> - polski odpowiednik THW</li></ul>
+<hr>
+<p>French links: <sup><b>[</b> <span style="color: red">▾ <b>DOWN</b> 2016</span> <b>]</b></sup>
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://2zfg3roohcxbm22l.onion/lvn.php">Le Tesseract</a> - Centre de formation ésotérique. </li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://3vnjj7h6c6vw2yh5.onion/">Liberty's Hackers</a> - No CP, No racism - because Knowledge has value only if it is shared by all - hosting in progress..</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://3vnjj7h6c6vw2yh5.onion/Forum/">Liberty's Hackers Board</a> - Liberty's Hackers Board</li>
+<li> <a rel="nofollow" target="_blank" class="external text" href="http://ocbh4hoqs37unvv6.onion/">French Deep Web</a> - an administered and moderate French board</li></ul>
+<p>guides:
+</p>
+<ul><li> <a rel="nofollow" target="_blank" class="external text" href="http://cmf7ilbimrix44wc.onion/">Tor Browser Guide</a>: The purpose of this guide will be to try to help you setup TBB to surf as safe as possible.</li></ul>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.165 seconds
+Real time usage: 0.501 seconds
+Preprocessor visited node count: 751/1000000
+Preprocessor generated node count: 1409/1000000
+Post‐expand include size: 4536/2097152 bytes
+Template argument size: 207/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   75.737      1 - -total
+ 25.27%   19.138     14 - Template:Language
+  9.83%    7.447      3 - Template:New
+  5.20%    3.939     23 - Template:Clearnet
+  5.07%    3.840     10 - Template:Down
+  4.29%    3.250      1 - Template:Protected_Link
+  3.31%    2.507      3 - Template:Verified
+  2.74%    2.078      1 - Template:Up
+  2.40%    1.818      1 - Template:Caution
+  2.00%    1.512      4 - Template:Freenet
+-->
+
+<!-- Saved in parser cache with key hwik-w_:pcache:idhash:4964-0!*!0!!en!*!* and timestamp 20210426201524 and revision id 31358
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;oldid=31358">http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;oldid=31358</a>"					</div>
+													<div id="catlinks" class="catlinks catlinks-allhidden"></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:UserLogin&amp;returnto=Main+Page&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:UserLogin&amp;returnto=Main+Page" title="You are encouraged to log in; however, it is not mandatory [Alt+Shift+o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page" title="View the content page [Alt+Shift+c]" accesskey="c">Page</a></span></li>
+															<li id="ca-talk"><span><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Talk:Main_Page" title="Discussion about the content page [Alt+Shift+t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0"><span>Variants</span><a href="#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page">Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;action=edit" title="This page is protected.
+You can view its source [Alt+Shift+e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;action=history" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span><a href="#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/wiki/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search Hidden Wiki [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton">								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page" title="Visit the main page [Alt+Shift+z]" accesskey="z">Main page</a></li>
+													<li id="n-recentchanges"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:RecentChanges" title="A list of recent changes in the wiki [Alt+Shift+r]" accesskey="r">Recent changes</a></li>
+													<li id="n-randompage"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:Random" title="Load a random page [Alt+Shift+x]" accesskey="x">Random page</a></li>
+													<li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out">Help</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:WhatLinksHere/Main_Page" title="A list of all wiki pages that link here [Alt+Shift+j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:RecentChangesLinked/Main_Page" title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Special:SpecialPages" title="A list of all special pages [Alt+Shift+q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;printable=yes" rel="alternate" title="Printable version of this page [Alt+Shift+p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;oldid=31358" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Main_Page&amp;action=info" title="More information about this page">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 February 2021, at 12:34.</li>
+											<li id="footer-info-copyright">Content is available under <a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Creative_Commons_Zero_(Public_Domain)" title="Creative Commons Zero (Public Domain)">Creative Commons Zero (Public Domain)</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Hidden_Wiki:Privacy_policy" title="Hidden Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Hidden_Wiki:About" title="Hidden Wiki:About">About Hidden Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="http://hwikis25cffertqe.onion/wiki/index.php?title=Hidden_Wiki:General_disclaimer" title="Hidden Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="cc-0.png" alt="Creative Commons Zero (Public Domain)" width="88" height="31"></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="http://www.mediawiki.org/"><img src="poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>if(window.jQuery)jQuery.ready();</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":145});
+}</script>
+	
+
+<div style="display: none; font-size: 13px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>
