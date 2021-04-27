@@ -5,4 +5,8 @@ Add it to bookmarks and spread it!
 
 -----------
 
+Visit Github clearnet website here -> ## https://akupedia.github.io/thehiddenwiki/
+
 This is an offline page of the famous Hidden Wiki as found on the Dark Web and Deep Web, an amazing start point for people of all skill-sets!
+
+------------
